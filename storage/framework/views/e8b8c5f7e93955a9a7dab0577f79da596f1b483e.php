@@ -1,0 +1,4 @@
+<?php if(Auth::user()->stripe_account_id && !Auth::user()->stripe_onboarding_verified): ?> <?php echo $__env->make('elements.stripe-connect-pending-onboarding', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> <?php endif; ?>
+<?php echo $__env->make('elements/settings/settings-wallet-withdrawal/fees-and-pending-balance', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('elements/settings/settings-wallet-withdrawal/withdrawal-input-container', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /home/u828667958/domains/vitrinsx.com/public_html/resources/views/elements/settings/settings-wallet-withdraw.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<?php /**PATH /home/u828667958/domains/vitrinsx.com/public_html/resources/views/template/jsVars.blade.php ENDPATH**/ ?>

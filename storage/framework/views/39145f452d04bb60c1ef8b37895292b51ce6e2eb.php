@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/public_html/resources/views/template/jsVars.blade.php ENDPATH**/ ?>
