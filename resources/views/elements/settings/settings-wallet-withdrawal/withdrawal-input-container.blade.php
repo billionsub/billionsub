@@ -1,4 +1,4 @@
-<div class="input-group mb-3 mt-3 withdrawals-form-wrapper">
+<div class="input-group mb-3 mt-3">
     <div class="input-group-prepend">
         <span class="input-group-text" id="amount-label">@include('elements.icon',['icon'=>'cash-outline','variant'=>'medium'])</span>
     </div>

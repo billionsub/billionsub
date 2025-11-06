@@ -59,16 +59,14 @@
     </script>
 @endif
 <script src="{{asset('libs/pusher-js/dist/web/pusher.min.js')}}"></script>
-
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 {{-- Favicon --}}
 <link rel="shortcut icon" href="{{ getSetting('site.favicon') }}" type="image/x-icon">
 
-<!-- Google fonts -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</noscript>
-
+{{-- (Preloading) Fonts --}}
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,500,600,700" rel="preload" as="style">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 {{-- Global CSS Assets --}}
 {!!
     Minify::stylesheet(
@@ -87,16 +85,8 @@
 {{-- Page specific CSS --}}
 @yield('styles')
 
-@if(getSetting('code-and-ads.custom_css'))
+@if(getSetting('custom-code-ads.custom_css'))
     <style>
-        {!! getSetting('code-and-ads.custom_css') !!}
-    </style>
-@endif
-
-@if(getSetting('site.enable_smooth_page_change_transitions'))
-    <style>
-        @view-transition {
-            navigation: auto;
-        }
+        {!! getSetting('custom-code-ads.custom_css') !!}
     </style>
 @endif

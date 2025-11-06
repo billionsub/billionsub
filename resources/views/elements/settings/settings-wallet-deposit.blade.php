@@ -1,5 +1,5 @@
 <h5 class="mt-3">{{__('Proceed with payment')}}</h5>
-<div class="input-group mb-3 mt-3 deposit-form-wrapper">
+<div class="input-group mb-3 mt-3">
     <div class="input-group-prepend">
         <span class="input-group-text" id="amount-label">@include('elements.icon',['icon'=>'cash-outline','variant'=>'medium'])</span>
     </div>
@@ -72,13 +72,6 @@
                     <label class="custom-control-label stepTooltip" for="customRadio8" title="">{{__("Oxxo")}}</label>
                 </div>
         @endif
-            @if(getSetting('payments.verotel_merchant_id') && getSetting('payments.verotel_shop_id') && getSetting('payments.verotel_signature_key'))
-                <div class="custom-control custom-radio mb-1">
-                    <input type="radio" id="customRadio9" name="payment-radio-option" class="custom-control-input"
-                           value="payment-verotel">
-                    <label class="custom-control-label stepTooltip" for="customRadio9" title="">{{__("Verotel")}}</label>
-                </div>
-            @endif
         @if(getSetting('payments.allow_manual_payments'))
             <div class="custom-control custom-radio mb-1">
                 <input type="radio" id="customRadio4" name="payment-radio-option" class="custom-control-input"

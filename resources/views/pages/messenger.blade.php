@@ -30,7 +30,7 @@
             '/js/plugins/media/mediaswipe-loader.js',
             '/js/pages/lists.js',
             '/js/pages/checkout.js',
-            '/libs/autolinker/dist/autolinker.min.js'
+            '/libs/pusher-js-auth/lib/pusher-auth.js'
          ])->withFullUrl()
     !!}
 @stop
@@ -44,9 +44,9 @@
     @include('elements.messenger.message-price-dialog')
     @include('elements.checkout.checkout-box')
     @include('elements.attachments-uploading-dialog')
-    @include('elements.messenger.locked-message-no-attachments-dialog', ['type' => lcfirst(__('Messages'))])
-    <div class="d-flex flex-wrap">
-        <div class=" col-12 px-0">
+    @include('elements.messenger.locked-message-no-attachments-dialog')
+    <div class="row">
+        <div class=" col-12">
             <div class="container messenger ">
                 <div class="row ">
                     <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-2 border border-right-0 border-left-0 rounded-left conversations-wrapper  overflow-hidden border-top ">

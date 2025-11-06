@@ -1,5 +1,5 @@
 <div class="list-item">
-     <span class="list-link d-flex flex-column pt-2 pb-2 rounded">
+     <span class="list-link d-flex flex-column pt-2 pb-2 pl-3 rounded">
          <div class="d-flex flex-row-no-rtl justify-content-between">
              <div class="text-truncate overflow-hidden">
 
@@ -13,7 +13,7 @@
                                  @if($isLive)
                                      <a href="{{route('public.stream.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}">{{$stream->name}}</a>
                                  @else
-                                     @if($stream->settings && $stream->settings['dvr'] && $stream->vod_link)
+                                     @if($stream->settings['dvr'] && $stream->vod_link)
                                          <a href="{{route('public.vod.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}">{{$stream->name}}</a>
                                      @else
                                          {{$stream->name}}
@@ -29,19 +29,9 @@
              <div class="d-flex justify-content-between align-items-center pr-3">
 
                  @if($isLive)
-                     @if($stream->driver === \App\Model\Stream::PUSHR_DRIVER)
-                         <span class="h-pill h-pill-accent rounded mr-2 show-stream-details-label" onclick="Streams.showStreamDetailsDialog({{$stream->id}},'{{$stream->rtmp_server}}','{{$stream->rtmp_key}}')">
-                            @include('elements.icon',['icon'=>'server-outline'])
-                         </span>
-                     @endif
-                     @if($stream->driver === \App\Model\Stream::LIVEKIT_DRIVER)
-                         <a href="{{route('my.streams.livekit.broadcast')}}">
-                             <span class="h-pill h-pill-accent rounded mr-2 show-stream-details-label">
-                                @include('elements.icon',['icon'=>'videocam-outline'])
-                             </span>
-                         </a>
-
-                     @endif
+                     <span class="h-pill h-pill-accent rounded mr-2 show-stream-details-label" onclick="Streams.showStreamDetailsDialog({{$stream->id}},'{{$stream->rtmp_server}}','{{$stream->rtmp_key}}')">
+                     @include('elements.icon',['icon'=>'server-outline'])
+                 </span>
                  @endif
 
                  @if($isLive)
@@ -55,7 +45,7 @@
                           @include('elements.icon',['icon'=>'eye-outline'])
                       </a>
                  @else
-                     @if(($stream->status == 'ended' && $stream->settings && $stream->settings['dvr'] && $stream->vod_link))
+                     @if(($stream->status == 'ended' && $stream->settings['dvr'] && $stream->vod_link))
                          <a class="h-pill h-pill-accent rounded mr-2" href="{{route('public.vod.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}">
                                   @include('elements.icon',['icon'=>'eye-outline'])
                               </a>

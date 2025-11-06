@@ -14,14 +14,12 @@
             <div class="col-4">
                 <div class="d-flex justify-content-center pb-5">
                     <a href="{{route('home')}}">
-                        <img class="brand-logo" src="{{asset('/img/logo-black.png')}}">
+                        <img class="brand-logo" src="{{asset('/img/logo-black1.png')}}">
                     </a>
                 </div>
                 <div class="col card shadow-sm">
+                    <h4 class="card-title mt-4 ml-2">{{__("Update the platform")}}</h4>
                     <div class="card-body mt-2">
-                        <h4 class="card-title mt-2 mb-1 font-weight-bold">{{__('Update the platform')}}</h4>
-                        <p class="text-sm text-muted">{{__("Keep your platform up to date with latest JustFans releases.")}}</p>
-                        <hr/>
                         @if(!$canMigrate && !session('success'))
                             <div class="alert alert-warning text-white font-weight-bold mt-2" role="alert">
                                 {{__("Looks like there are no available updates on the current installation.")}}

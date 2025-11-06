@@ -7,13 +7,6 @@
 @section('share_type', 'article')
 @section('share_img', $user->cover)
 
-@if(getSetting('security.captcha_driver') !== 'none' && !Auth::check())
-    @section('meta')
-        <x-captcha-js />
-    @stop
-@endif
-
-
 @section('scripts')
     {!!
         Minify::javascript(array_merge([
@@ -29,7 +22,6 @@
             '/libs/photoswipe/dist/photoswipe-ui-default.min.js',
             '/js/plugins/media/mediaswipe.js',
             '/js/plugins/media/mediaswipe-loader.js',
-            '/libs/autolinker/dist/autolinker.min.js',
             '/js/LoginModal.js',
             '/js/messenger/messenger.js',
          ],$additionalAssets))->withFullUrl()
@@ -65,8 +57,8 @@
 @stop
 
 @section('content')
-    <div class="d-flex flex-wrap">
-        <div class="min-vh-100 col-12 col-md-8 border-right pr-md-0 px-0">
+    <div class="row">
+        <div class="min-vh-100 col-12 col-md-8 border-right pr-md-0">
 
             <div class="">
                 <div class="profile-cover-bg">
@@ -75,13 +67,8 @@
             </div>
 
             <div class="container d-flex justify-content-between align-items-center">
-                <div class="z-index-3 avatar-holder position-relative d-inline-block">
-                    <img src="{{ $user->avatar }}" class="w-100 h-100" style="border-radius: 50%; object-fit: cover;">
-                    @if(getSetting('profiles.show_online_users_indicator'))
-                        @if(GenericHelper::isUserOnline($user->id))
-                            <span class="online-indicator"></span>
-                        @endif
-                    @endif
+                <div class="z-index-3 avatar-holder">
+                    <img src="{{$user->avatar}}" class="rounded-circle">
                 </div>
                 <div>
                     @if(!Auth::check() || Auth::user()->id !== $user->id)
@@ -90,13 +77,13 @@
                                 <div class="">
                                 <span class="p-pill ml-2 pointer-cursor to-tooltip"
                                       @if(!Auth::user()->email_verified_at && getSetting('site.enforce_email_validation'))
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('Please verify your account')}}"
                                       @elseif(!\App\Providers\GenericHelperServiceProvider::creatorCanEarnMoney($user))
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('This creator cannot earn money yet')}}"
                                       @else
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('Send a tip')}}"
                                       data-toggle="modal"
                                       data-target="#checkout-center"
@@ -186,20 +173,7 @@
                             </span>
                         @endif
                     </h5>
-                    <h6 class="text-muted"><span class="text-bold"><span>@</span>{{$user->username}}</span>
-                        @if(getSetting('profiles.show_online_users_indicator'))
-                            <span class="font-weight-bold">•</span>
-                            @if(GenericHelper::isUserOnline($user->id))
-                                <span>{{__("Available now")}}</span>
-                            @else
-                                @if(getSetting('profiles.record_users_last_activity_time') && $user->last_active_at)
-                                    <span>{{__("Last seen")}} {{$user->last_active_for_humans}}</span>
-                                @else
-                                    <span>{{__("Online recently")}}</span>
-                                @endif
-                            @endif
-                        @endif
-                    </h6>
+                    <h6 class="text-muted"><span class="text-bold"><span>@</span>{{$user->username}}</span> {{--- Last seen X time ago--}}</h6>
                 </div>
 
                 <div class="pt-2 pb-2 pl-4 pr-4 profile-description-holder">
@@ -359,7 +333,7 @@
                             <a class="nav-item nav-link {{$activeFilter == 'audio' ? 'active' : ''}}" href="{{route('profile',['username'=> $user->username]) . '?filter=audio'}}">{{trans_choice('audio', $filterTypeCounts['audio'], ['number'=>$filterTypeCounts['audio']])}}</a>
                         @endif
 
-                        @if(getSetting('streams.streaming_driver') !== 'none')
+                        @if(getSetting('streams.allow_streams'))
                             @if(isset($filterTypeCounts['streams']) && $filterTypeCounts['streams'] > 0)
                                 <a class="nav-item nav-link {{$activeFilter == 'streams' ? 'active' : ''}}" href="{{route('profile',['username'=> $user->username]) . '?filter=streams'}}"> {{$filterTypeCounts['streams']}} {{trans_choice('streams', $filterTypeCounts['streams'], ['number'=>$filterTypeCounts['streams']])}}</a>
                             @endif

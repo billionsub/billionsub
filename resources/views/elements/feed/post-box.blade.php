@@ -1,5 +1,4 @@
 <div class="post-box" data-postID="{{$post->id}}">
-    {{--    Post header --}}
     <div class="post-header pl-3 pr-3 ">
         <div class="d-flex">
             <div class="avatar-wrapper">
@@ -34,7 +33,7 @@
                                 </div>
                             @endif
                         @endif
-                        @if((Auth::check() && $post->price > 0) || (!Auth::check() && $post->price > 0))
+                        @if(Auth::check() && $post->user_id === Auth::user()->id && $post->price > 0)
                             <div class="pr-3 pr-md-3"><span class="badge badge-pill bg-gradient-faded-primary">{{ucfirst(__("PPV"))}}</span></div>
                         @endif
 
@@ -104,18 +103,16 @@
         </div>
     </div>
 
-    {{--    Post text --}}
     <div class="post-content mt-3 {{count($post->attachments) ? "mb-3" : ""}} pl-3 pr-3">
-        <div class="text-break post-content-data {{ getSetting('feed.enable_post_description_excerpts') ? 'line-clamp-3' : '' }}">
-            @if(PostsHelper::shouldHidePostText($post))
-                @if(!count($post->attachments))
-                    <span class="small font-italic">{{ __("Hidden text, subscription or unlock required.") }}</span>
+        <div class="text-break post-content-data {{getSetting('feed.enable_post_description_excerpts') ? 'line-clamp-3' : ''}}">
+            @if(getSetting('feed.disable_posts_text_preview'))
+                @if($post->isSubbed || (getSetting('profiles.allow_users_enabling_open_profiles') && $post->user->open_profile))
+                    {!!GenericHelper::parseSafeHTML($post->text)!!}
                 @endif
             @else
-                {!! GenericHelper::parseSafeHTML($post->text) !!}
+                {!!GenericHelper::parseSafeHTML($post->text)!!}
             @endif
         </div>
-
         @if(getSetting('feed.enable_post_description_excerpts'))
             <div class="text-primary pointer-cursor show-more-actions {{count($post->attachments) ? "mb-3" : ""}} d-none" onclick="Post.toggleFullDescription({{$post->id}})">
                 <span class="label-more">{{__('Show more')}}</span>
@@ -124,10 +121,9 @@
         @endif
     </div>
 
-    {{--    Post media --}}
     @if(count($post->attachments))
         <div class="post-media">
-            @if(PostsHelper::isPostSubscriptionUnlocked($post))
+            @if($post->isSubbed || (getSetting('profiles.allow_users_enabling_open_profiles') && $post->user->open_profile))
                 @if((Auth::check() && Auth::user()->id !== $post->user_id && $post->price > 0 && !PostsHelper::hasUserUnlockedPost($post->postPurchases)) || (!Auth::check() && $post->price > 0 ))
                     @include('elements.feed.post-locked',['type'=>'post','post'=>$post])
                 @else
@@ -158,32 +154,7 @@
                 @include('elements.feed.post-locked',['type'=>'subscription',])
             @endif
         </div>
-    @else
-        @if(PostsHelper::isPostSubscriptionUnlocked($post))
-            @if((Auth::check() && Auth::user()->id !== $post->user_id && $post->price > 0 && !PostsHelper::hasUserUnlockedPost($post->postPurchases)) || (!Auth::check() && $post->price > 0 ))
-                @include('elements.feed.post-locked',['type'=>'post','post' => $post])
-            @endif
-        @else
-            @include('elements.feed.post-locked',['type'=>'subscription',])
-        @endif
     @endif
-
-    {{--    Post poll --}}
-    @if(PostsHelper::isPostSubscriptionUnlocked($post))
-        @if(!((Auth::check() && Auth::user()->id !== $post->user_id && $post->price > 0 && !PostsHelper::hasUserUnlockedPost($post->postPurchases)) || (!Auth::check() && $post->price > 0 )))
-            @if($post->poll)
-                <div class="post-poll-{{$post->poll->id}} mt-3 pl-3 pr-3">
-                    @include('elements.feed.post-box-poll', [
-                        'pollResults' => PostsHelper::getPollResults($post->poll),
-                        'votedAnswer' => PostsHelper::hasUserVotedInPoll($post->poll->id)
-                ])
-                </div>
-            @endif
-        @endif
-    @endif
-
-    {{--    Post footer --}}
-
     <div class="post-footer mt-3 pl-3 pr-3">
         <div class="footer-actions d-flex justify-content-between">
             <div class="d-flex">
@@ -215,10 +186,10 @@
                 @endif
                 {{-- Tips --}}
                 @if(Auth::check() && $post->user->id != Auth::user()->id)
-                    @if(PostsHelper::isPostSubscriptionUnlocked($post))
+                    @if($post->isSubbed || (getSetting('profiles.allow_users_enabling_open_profiles') && $post->user->open_profile))
                         <div class="h-pill h-pill-primary send-a-tip to-tooltip poi {{(!GenericHelper::creatorCanEarnMoney($post->user)) ? 'disabled' : ''}}"
                              @if(!GenericHelper::creatorCanEarnMoney($post->user))
-                                 data-placement="top"
+                             data-placement="top"
                              title="{{__('This creator cannot earn money yet')}}">
                             @else
                                 data-toggle="modal"
@@ -282,8 +253,6 @@
             </div>
         </div>
     </div>
-
-    {{--    Post comments --}}
 
     @if($post->isSubbed || (Auth::check() && getSetting('profiles.allow_users_enabling_open_profiles') && $post->user->open_profile))
         <div class="post-comments d-none" {{Route::currentRouteName() == 'posts.get' ? 'id="comments"' : ''}}>

@@ -8,17 +8,15 @@
 @section('share_img', GenericHelper::getOGMetaImage())
 
 @section('scripts')
-    @verbatim
-        <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "{{getSetting('site.name')}}",
-              "url": "{{getSetting('site.app_url')}}",
-              "address": ""
-            }
-        </script>
-    @endverbatim
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "{{getSetting('site.name')}}",
+    "url": "{{getSetting('site.app_url')}}",
+    "address": ""
+  }
+</script>
 @stop
 
 @section('styles')
@@ -31,26 +29,84 @@
 @stop
 
 @section('content')
-    <div class="home-header min-vh-75 relative pt-2" >
-        <div class="container h-100 pb-5">
-            <div class="row d-flex flex-row align-items-center h-100">
-                <div class="col-12 col-md-6 mt-4 mt-md-0">
-                    <h1 class="font-weight-bolder text-gradient bg-gradient-primary">{{__('Make more money')}}</h1>
-                    <h1 class="font-weight-bolder text-gradient bg-gradient-primary">{{__('with your content')}}</h1>
-                    <p class="font-weight-bold mt-3">🚀 {{__("Start your own premium creators platform with our ready to go solution.")}}</p>
-                    <div class="pt-1 d-flex justify-content-center justify-content-md-start">
-                        <a href="{{Auth::check() ? route('feed') : route('login')}}" class="btn btn-grow bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0 mr-2">{{__('Try for free')}}</a>
-                        <a href="{{route('search.get')}}" class="btn btn-grow btn-link  btn-round mb-0 me-1 mt-2 mt-md-0 ">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #000;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            max-height: 100%; /* or whatever height you want */
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #444;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <div class="home-header min-vh-100 position-relative  overflow-hidden">
+        <div class="container h-100">
+            <div class="row d-flex align-items-center h-100 ">
+                <!-- Left column (text) -->
+                <div class="col-12 col-md-5 mt-6 mt-md-0 ">
+                    <h2 class="font-weight-bold text-gradient text-center">{{__('Create. Earn. Connect. All with Crypto')}},</h2>
+                    <p class="text-gradient bg-white text-center">{{__('Billionsub empowers creators to earn globally and instantly in crypto – and gives fans a secure, borderless way to support the content they love.')}}.</p>
+                    <div class="mt-4 text-center">
+                        <a href="{{route('login')}}" class="btn btn-grow bg-gradient-primary btn-round mb-0 me-1 mt-2 mt-md-0">
+                            {{__('Join as a Creator')}}
+                        </a>
+                        <a href="{{route('search.get')}}" class="btn btn-grow btn-link btn-round mb-0 me-1 mt-2 mt-md-0">
                             @include('elements.icon',['icon'=>'search-outline','centered'=>false])
-                            {{__('Explore')}}</a>
+                            {{__('Discover Creators')}}
+                        </a>
                     </div>
+{{--                    <div class="d-flex col-12 col-5 ">--}}
+{{--                        <img src="{{asset('/img/homePic2.jpg')}}" class="" style="width: 250px; height: 250px; object-fit: cover" alt="">--}}
+{{--                        <h6>Experience the Pulse of Exclusive Content</h6>--}}
+{{--                    </div>--}}
                 </div>
-                <div class="col-12 col-md-6 d-none d-md-block">
-                    <div class="pt-5">
-                        <img src="{{asset('/img/home-header.svg')}}" alt="{{__('Make more money')}}"/>
+
+                <!-- Right column (image fills column entirely) -->
+                <div class="col-5 col-md-6 d-none d-md-flex justify-content-center align-items-end h-100 p-0 mt-5">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ">
+                                <video autoplay loop muted playsinline class="h-100 w-100" style="object-fit: cover" src="{{asset('/videos/slider1.mp4')}}"></video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video autoplay loop muted playsinline class="h-100 w-100" style="object-fit: cover" src="{{asset('/videos/slider22.mp4')}}"></video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video autoplay loop muted playsinline class="h-100 w-100" style="object-fit: cover" src="{{asset('/videos/slider3.mp4')}}"></video>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    {{--                    <img src="{{asset('/img/home-header-high-res.gif')}}" alt="{{__('Make more money')}}" class="img-fluid"/>--}}
-                    {{--                    <img src="{{asset('/img/home-header.gif')}}" alt="{{__('Make more money')}}" class="img-fluid"/>--}}
                 </div>
             </div>
         </div>
@@ -58,182 +114,105 @@
 
 
 
-    <div class="py-5 mt-4">
+    <div class="my-5 py-5 home-bg-section">
+        <div class="row justify-content-md-center">
+            <div class="col-xl-5 col-lg-6 col-md-8">
+                <div class="section-title text-center title-ex1 ">
+                    <h2 class="text-gradient">Why Billionsub?</h2>
+                    <p>Why Thousands Are Switching to Billionsub:</p>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center">
+                        <!--   <img src="{{asset('/img/home-scene-1.svg')}}" class="img-fluid home-box-img" alt="{{__('Premium & Private content')}}"> -->
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="col-12 col-md-10 text-center">
+                            <h5 class="text-bold text-gradient text-lg">{{__('Global, Instant Payments')}}</h5>
+                            <span class="text-md">{{__('Zero borders, 24/7 access')}} </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center">
+                     <!--   <img src="{{asset('/img/home-scene-1.svg')}}" class="img-fluid home-box-img" alt="{{__('Premium & Private content')}}"> -->
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="col-12 col-md-10 text-center">
+                            <h5 class="text-bold text-gradient text-lg">{{__('Global, Instant Payments')}}</h5>
+                            <span class="text-md">{{__('Zero borders, 24/7 access')}} </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center">
+                    <!--    <img src="{{asset('/img/home-scene-2.svg')}}" class="img-fluid home-box-img" alt="{{__('Private chat & Tips')}}"> -->
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="col-12 col-md-10 text-center">
+                            <h5 class="text-bold text-gradient text-lg">{{__('Total Privacy')}}</h5>
+                            <span class="text-md">{{__('No credit card leaks. No ID needed')}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center">
+                    <!--    <img src="{{asset('/img/home-scene-3.svg')}}" class="img-fluid home-box-img" alt="{{__('Secured assets & Privacy focus')}}"> -->
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="col-12 col-md-10 text-center">
+                            <h5 class="text-bold text-gradient">{{__('Invite & Earn')}}</h5>
+                            <span class="text-md">{{__("Our viral referral system pays you forever")}}</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="pricing-section">
         <div class="container">
+            <!-- cards starts -->
             <div class="row">
-                <div class="col-12 col-md-4 mb-5 mb-md-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="{{asset('/img/home-scene-1.svg')}}" class="img-fluid home-box-img" alt="{{__('Paywall social network')}}">
-                    </div>
-                    <div class="d-flex justify-content-center mt-4">
-                        <div class="col-12 col-md-10 text-center">
-                            <h5 class="text-bolder">{{__('Paywall social network')}}</h5>
-                            <span>{{__('homepage_subHeader_paywall_description')}} </span>
-                        </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <h2>Step 1</h2>
+                        <p>Set Up Instantly</p>
+                        <ul class="pricing-offers">
+                            <li>Create your page in minutes. No ID. No bank. Just freedom.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-5 mb-md-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="{{asset('/img/home-scene-2.svg')}}" class="img-fluid home-box-img" alt="{{__('For fans and creators')}}">
-                    </div>
-                    <div class="d-flex justify-content-center mt-4">
-                        <div class="col-12 col-md-10 text-center">
-                            <h5 class="text-bolder">{{__('For fans and creators')}}</h5>
-                            <span>{{__('homepage_subHeader_fans_description')}}</span>
-                        </div>
+                <div class="col-md-4">
+                    <div class="card featured">
+                        <h2>Step 2</h2>
+                        <p>Accept Any Major Crypto</p>
+                        <ul class="pricing-offers">
+                            <li>From Bitcoin to stablecoins, get paid in what matters to you.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-5 mb-md-0">
-                    <div class="d-flex justify-content-center">
-                        <img src="{{asset('/img/home-scene-3.svg')}}" class="img-fluid home-box-img" alt="{{__('Enjoy quality content')}}">
-                    </div>
-                    <div class="d-flex justify-content-center mt-4">
-                        <div class="col-12 col-md-10 text-center">
-                            <h5 class="text-bolder">{{__('Enjoy quality content')}}</h5>
-                            <span>{{__("homepage_subHeader_content_description")}}</span>
-                        </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <h2>Step 3</h2>
+                        <p>Get Paid Directly</p>
+                        <ul class="pricing-offers">
+                            <li>Your fans subscribe, tip, unlock content — and you earn without delay.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="mt-5 py-5 home-bg-section">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-12 col-md-6 d-none d-md-flex justify-content-center">
-                    <img src="{{asset('/img/home-creators.svg')}}" class="home-mid-img" alt="{{__('Make more money')}}">
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-                        <div class="pl-4 pl-md-5">
-                            <h2 class="font-weight-bolder m-0">{{__('Create your profile')}}</h2>
-                            <h2 class="font-weight-bolder m-0">{{__('in just a few clicks')}}</h2>
-                            <div class="my-4 col-9 px-0">
-                                <p>{{__("become a creator long")}}</p>
-                            </div>
-                            <div>
-                                <a href="{{Auth::check() ? route('my.settings',['type'=>'verify']) : route('login') }}" class="btn bg-gradient-primary btn-grow btn-round mb-0 me-1 mt-2 mt-md-0 p-3">{{__('Become a creator')}}</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="py-5">
-        <div class="container py-4">
-            <div class="text-center">
-                <h2 class="font-weight-bolder ">{{__('Main features')}}</h2>
-                <p>{{__("Here's a glimpse at the main features our script offers")}}</p>
-            </div>
-            <div class="row">
-
-
-                <div class="col-12 col-md-4 mt-5 px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row-reverse mb-3">
-                        @include('elements.icon',['icon'=>'wallet-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Advanced paywall")}}</h5>
-                    <p class="mb-0">{{__("homepage_paywall_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row-reverse mb-3">
-                        @include('elements.icon',['icon'=>'albums-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Advanced posting capabilities")}}</h5>
-                    <p class="mb-0">{{__("homepage_posting_description")}}</p>
-                </div>
-
-                {{--                <div class="col-12 col-md-4 mt-5 px-4 py-3 rounded my-2 w-100">--}}
-                {{--                    <div class="flex-row-reverse mb-3">--}}
-                {{--                        @include('elements.icon',['icon'=>'hardware-chip-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])--}}
-                {{--                    </div>--}}
-                {{--                    <h5 class="text-bolder">{{__("AI Ready")}}</h5>--}}
-                {{--                    <p class="mb-0">{{__("homepage_ai_description")}}</p>--}}
-                {{--                </div>--}}
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'chatbubbles-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Live chat & Notifications")}}</h5>
-                    <p class="mb-0">{{__("homepage_chat_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row-reverse mb-3">
-                        @include('elements.icon',['icon'=>'phone-portrait-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Mobile Ready")}}</h5>
-                    <p class="mb-0">{{__("homepage_mobile_description")}}</p>
-                </div>
-
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'moon-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Light & Dark themes")}}</h5>
-                    <p class="mb-0">{{__("homepage_themes_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'language-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("RTL & Locales")}}</h5>
-                    <p class="mb-0">{{__("homepage_rtl_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'bookmarks-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Post Bookmarks & User lists")}}</h5>
-                    <p class="mb-0">{{__("homepage_lists_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'flag-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Content flagging and User reports")}}</h5>
-                    <p class="mb-0">{{__("homepage_reports_description")}}</p>
-                </div>
-
-                <div class="col-12 col-md-4 mt-5 text-left px-4 py-3 rounded my-2 w-100">
-                    <div class="flex-row mb-3">
-                        @include('elements.icon',['icon'=>'videocam-outline','variant'=>'large','centered'=>false,'classes'=>'text-primary'])
-                    </div>
-                    <h5 class="text-bolder">{{__("Live streaming")}}</h5>
-                    <p class="mb-0">{{__("homepage_live_description")}}</p>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-    {{--    <div class="my-5 py-2">--}}
-    {{--        <div class="container">--}}
-    {{--            <div class="text-center mb-5">--}}
-    {{--                <h2 class="font-weight-bolder">{{__("Earnings simulator")}}</h2>--}}
-    {{--                <p>{{__("Calculate the rough ammount you can earn on our platform, based on your subscription price and followers count.")}}</p>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </div>--}}
-
-    <div class="py-5 home-bg-section">
-        <div class="container py-4">
-            <div class="text-center mb-5">
-                <h2 class="font-weight-bolder">{{__("Featured creators")}}</h2>
-                <p>{{__("Here's list of currated content creators to start exploring now!")}}</p>
+   <div class="my-5 py-5 home-bg-section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="font-weight-bold">{{__("Featured creators")}}</h2>
             </div>
 
             <div class="creators-wrapper">
@@ -242,7 +221,7 @@
                         @foreach($featuredMembers as $member)
                             <div class="col-12 col-md-4 p-1">
                                 <div class="p-2">
-                                    @include('elements.feed.suggestion-card',['profile' => $member])
+                                    @include('elements.vertical-member-card',['profile' => $member])
                                 </div>
                             </div>
                         @endforeach
@@ -252,12 +231,35 @@
         </div>
     </div>
 
-    <div class="py-5 white-section ">
-        <div class="container py-4">
-            <div class="text-center">
-                <h2 class="font-weight-bolder">{{__("Got questions?")}}</h2>
-                <p>{{__("Don't hesitate to send us a message at")}} - <a href="{{route('contact')}}">{{__("Contact")}}</a> </p>
-            </div>
-        </div>
-    </div>
+{{--    <div class="py-4 my-4 white-section ">--}}
+{{--        <div class="container">--}}
+{{--            <div class="text-center">--}}
+{{--                <h3 class="font-weight-bold">{{__("Got questions?")}}</h3>--}}
+{{--                <p>{{__("Don't hesitate to send us a message at")}} - <a href="{{route('contact')}}">{{__("Contact")}}</a> </p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 @stop

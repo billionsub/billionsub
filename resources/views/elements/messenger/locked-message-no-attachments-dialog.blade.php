@@ -8,7 +8,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>{{__('Locked posts must contain at least one attachment.',['type' => $type])}}</p>
+                <p>{{__('Locked posts must contain at least one attachment.')}}</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary mb-0"  data-dismiss="modal">{{__('Close')}}</button>

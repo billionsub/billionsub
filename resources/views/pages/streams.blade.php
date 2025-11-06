@@ -23,8 +23,8 @@
 
 @section('content')
 
-    <div class="d-flex flex-wrap">
-        <div class="col-12 px-0">
+    <div class="row">
+        <div class="col-12">
             <div class="pt-4 d-flex justify-content-between align-items-center px-3 pb-3 border-bottom">
                 <div>
                     <h5 class="text-truncate text-bold mb-0 {{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? '' : 'text-dark-r') : (Cookie::get('app_theme') == 'dark' ? '' : 'text-dark-r'))}}">{{__('Streams')}}</h5>

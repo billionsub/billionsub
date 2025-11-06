@@ -6,19 +6,16 @@
             <div class="col-4">
                 <div class="d-flex justify-content-center pb-5">
                     <a href="{{route('installer.install')}}">
-                        <img class="brand-logo" src="{{asset('/img/logo-black.png')}}">
+                        <img class="brand-logo" src="{{asset('/img/logo-black1.png')}}">
                     </a>
                 </div>
                 <div class="col card shadow-sm">
                     <div class="card-body">
-                        <h4 class="card-title mt-2 mb-1 font-weight-bold">{{__('Requirements')}}</h4>
-                        <p class="text-sm text-muted">{{__("Overall, minimal server requirements.")}}</p>
-                        <hr/>
                         <div class="text-bold mb-2">
-                            {{__("Mandatory")}}
+                            {{__("Mandatory requirements")}}
                         </div>
                         <div class="row mb-1">
-                            <div class="col-8"><span>{{__("PHP Version")}}: {{phpversion()}}</div>
+                            <div class="col-8">{{__("PHP Version")}}: {{phpversion()}}</div>
                             <div class="col-4 d-flex justify-content-end">
                                 @if(version_compare(phpversion(), '7.2.5') >= 0)
                                     @include('elements.icon',['icon'=>'checkmark-circle-outline','variant'=>'medium', 'classes'=>'text-success'])
@@ -52,7 +49,7 @@
 
                         <hr>
                         <div class="text-bold mb-2">
-                            {{__("Optional")}}
+                            {{__("Optional requirements")}}
                         </div>
                         <div class="row mb-1">
                             <div class="col-8">FFMpeg</div>

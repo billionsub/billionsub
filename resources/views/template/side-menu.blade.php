@@ -58,7 +58,7 @@
                     </div>
                 </a>
             </li>
-            @if(getSetting('streams.streaming_driver') !== 'none')
+            @if(getSetting('streams.allow_streams'))
                 <li class="nav-item">
                     <a href="{{route('search.get')}}?filter=live" class="nav-link {{Route::currentRouteName() == 'search.get' && request()->get('filter') == 'live' ? 'active' : ''}} h-pill h-pill-primary d-flex justify-content-between">
                         <div class="d-flex justify-content-center align-items-center">
@@ -141,7 +141,7 @@
         </li>
 
         @if(GenericHelper::isEmailEnforcedAndValidated())
-            @if(getSetting('streams.streaming_driver') !== 'none' && !getSetting('site.hide_stream_create_menu'))
+            @if(getSetting('streams.allow_streams') && !getSetting('site.hide_stream_create_menu'))
                 <li class="nav-item-live mt-2 mb-0">
                     <a role="button" class="btn btn-round btn-outline-danger btn-block px-3" href="{{route('my.streams.get')}}{{StreamsHelper::getUserInProgressStream() ? '' : ( !GenericHelper::isUserVerified() && getSetting('site.enforce_user_identity_checks') ? '' : '?action=create')}}">
                         <div class="d-none d-md-flex d-xl-flex d-lg-flex justify-content-center align-items-center ml-1 text-truncate new-post-label">

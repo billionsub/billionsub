@@ -1,60 +1,40 @@
 @extends('layouts.user-no-nav')
 @section('page_title', $stream->name)
 
+
 @section('styles')
-    @if(!$stream->isLivekitDriver())
-        {{-- RTMP (Pushr) specific styles --}}
-        <link rel="stylesheet" href="{{asset('/libs/video.js/dist/video-js.min.css')}}">
-        <link rel="stylesheet" href="{{asset('/css/player-theme.css')}}">
-    @endif
-    {!! Minify::stylesheet([
+    <link rel="stylesheet" href="{{asset('/libs/video.js/dist/video-js.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/player-theme.css')}}">
+    {!!
+        Minify::stylesheet([
             '/libs/dropzone/dist/dropzone.css',
             '/css/pages/checkout.css',
-            '/css/pages/stream.css'
-        ])->withFullUrl()
-     !!}
+            '/css/pages/stream.css',
+         ])->withFullUrl()
+    !!}
 @stop
 
 @section('scripts')
-    @if(!$stream->isLivekitDriver())
-        <script type="text/javascript" src="{{asset('/libs/video.js/dist/video.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('/libs/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('/libs/videojs-http-source-selector/dist/videojs-http-source-selector.min.js')}}"></script>
-    @endif
-    {!! Minify::javascript([
-        '/libs/dropzone/dist/dropzone.js',
-        '/libs/pusher-js-auth/lib/pusher-auth.js',
-        '/js/FileUpload.js',
-        '/js/pages/lists.js',
-        '/js/pages/checkout.js',
-        '/js/RTMPStream.js',
-        '/js/RTCStream.js',
-        '/js/pages/stream.js'
-    ])->withFullUrl() !!}
-    <script>
-        $(document).ready(function () {
-            Stream.init("{{ $stream->getDriverSlug() }}");
-
-            $('#startStreamBtn').on('click', function () {
-                const overlay = document.getElementById('stream-start-overlay');
-                overlay?.classList.add('hidden');
-
-                if (typeof RTCStream !== 'undefined' && typeof RTCStream.resumeMedia === 'function') {
-                    RTCStream.resumeMedia().then(() => {
-                        RTCStream.hasUserInteracted = true;
-                        RTCStream.tryResumePlayback();
-                    }).catch(err => {
-                        console.warn("Stream resumeMedia error:", err);
-                    });
-                }
-            });
-        });
-    </script>
+    <script type="text/javascript" src="{{asset('/libs/video.js/dist/video.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('/libs/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('/libs/videojs-http-source-selector/dist/videojs-http-source-selector.min.js')}}"></script>
+    {!!
+        Minify::javascript([
+            '/libs/dropzone/dist/dropzone.js',
+            '/js/FileUpload.js',
+            '/js/pages/stream.js',
+            '/js/pages/lists.js',
+            '/libs/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.min.js',
+            '/libs/videojs-http-source-selector/dist/videojs-http-source-selector.min.js',
+            '/libs/pusher-js-auth/lib/pusher-auth.js',
+            '/js/pages/checkout.js',
+         ])->withFullUrl()
+    !!}
 @stop
 
 @section('content')
-    <div class="d-flex flex-wrap">
-        <div class="col-12 px-0">
+    <div class="row">
+        <div class="col-12">
             <div class="pt-4 d-flex justify-content-between align-items-center px-3 pb-3 border-bottom">
                 <h5 class="text-truncate text-bold mb-0 {{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? '' : 'text-dark-r') : (Cookie::get('app_theme') == 'dark' ? '' : 'text-dark-r'))}}">{{$stream->name}}</h5>
                 @if(!isset($streamEnded))
@@ -67,64 +47,34 @@
                 @endif
             </div>
             <div class="px-3 pt-3">
-                @include('elements.message-alert',['classes'=>'pb-3'])
-                <div class="stream-wrapper d-flex flex-wrap">
-                    <div class="stream-video col-12 px-0">
+                <div class="stream-wrapper row">
+                    <div class="stream-video col-12">
                         @if($stream->canWatchStream)
-                            @if($stream->isLivekitDriver())
-                                <div id="stream-start-overlay-wrapper">
-                                    <div id="remote-videos" class="">
-                                        <div id="placeholder" class="d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/img/live-stream-locked.svg') }}" alt="No live stream available" style="width:70%; height: 50vh;">
-                                        </div>
-                                    </div>
-                                    <div id="stream-start-overlay">
-                                        <button id="startStreamBtn" class="btn btn-lg btn-primary">{{ __("Click to start stream") }}</button>
-                                    </div>
-                                </div>
-                                <div id="remote-audios"></div>
-                            @else
-                                <video
-                                    id="my_video_1"
-                                    class="video-js vjs-fluid vjs-theme-forest"
-                                    controls
-                                    preload="auto"
-                                    autoplay
-                                    muted
-                                    poster="{{ $stream->poster ?? asset('/img/live-stream-locked.svg') }}"
-                                >
-                                    <source src="{{ isset($streamEnded) ? 'https://' . $stream->vod_link : $stream->hls_link }}" type="application/vnd.apple.mpegurl">
-                                </video>
-                            @endif
+                            <video id="my_video_1" class="video-js vjs-fluid vjs-theme-forest" controls preload="auto" autoplay muted>
+                                <source src="{{isset($streamEnded) ? 'https://'.$stream->vod_link : $stream->hls_link}}" type="application/x-mpegURL">
+                            </video>
                         @else
-                            <div class="d-flex flex-wrap justify-content-center align-items-center">
-                                <div class="col-12 px-0">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-12">
                                     <div class="card p-5">
                                         <div class="p-4 p-md-5">
                                             <img src="{{asset('/img/live-stream-locked.svg')}}" class="stream-locked">
                                         </div>
-                                        <div class="d-flex align-items-center justify-content-center">
-                                            <span>
-                                                🔒 {{__("Live stream requires a")}}
-                                                @if(isset($subLocked))
-                                                    {{__("valid")}}
-                                                    <a href="javascript:void(0);" class="stream-subscribe-label to-tooltip"
-                                                       @if(!GenericHelper::creatorCanEarnMoney($stream->user))
-                                                           data-placement="top"
-                                                       title="{{__('This creator cannot earn money yet')}}"
-                                                       @endif>
-                                                       {{__("user subscription")}}
-                                                    </a>
-                                                @endif
+                                        <div class="d-flex align-items-center justify-content-center" style="">
+                                            <span>🔒 {{__("Live stream requires a")}} @if(isset($subLocked)) {{__("valid")}}
+                                                <a href="javascript:void(0);" class="stream-subscribe-label to-tooltip"
+                                                   @if(!GenericHelper::creatorCanEarnMoney($stream->user))
+                                                   data-placement="top"
+                                                   title="{{__('This creator cannot earn money yet')}}"
+                                                   @endif
+                                                >{{__("user subscription")}}</a>@endif
                                                 @if(isset($priceLocked))
-                                                    @if(isset($subLocked)){{__("and an")}}@endif
-                                                    <a href="javascript:void(0);" class="stream-unlock-label to-tooltip"
-                                                       @if(!GenericHelper::creatorCanEarnMoney($stream->user))
-                                                           data-placement="top"
-                                                       title="{{__('This creator cannot earn money yet')}}"
-                                                       @endif>
-                                                       {{__("one time fee")}}
-                                                    </a>
+                                                    @if(isset($subLocked)){{__("and an")}}@endif <a href="javascript:void(0);" class="stream-unlock-label to-tooltip"
+                                                                                                    @if(!GenericHelper::creatorCanEarnMoney($stream->user))
+                                                                                                    data-placement="top"
+                                                                                                    title="{{__('This creator cannot earn money yet')}}"
+                                                    @endif
+                                                    >{{__("one time fee")}}</a>
                                                 @endif.
                                             </span>
                                         </div>
@@ -135,16 +85,18 @@
                     </div>
                 </div>
 
-                <div class="card pb-3 my-3">
-                    <div class="pt-3 px-3">
+                <div class="card pb-3">
+                    <div class="p-3">
                         @include('elements.streams.stream-details-banner')
                     </div>
                     @include('elements.streams.stream-chat')
                 </div>
+
+
             </div>
         </div>
-    </div>
 
     @include('elements.checkout.checkout-box')
-    @include('elements.report-user-or-post', ['reportStatuses' => ListsHelper::getReportTypes()])
+    @include('elements.report-user-or-post',['reportStatuses' => ListsHelper::getReportTypes()])
+
 @stop

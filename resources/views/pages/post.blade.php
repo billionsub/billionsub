@@ -30,15 +30,14 @@
             '/libs/photoswipe/dist/photoswipe-ui-default.min.js',
             '/js/plugins/media/mediaswipe.js',
             '/js/plugins/media/mediaswipe-loader.js',
-            '/libs/autolinker/dist/autolinker.min.js',
             '/js/posts/view.js',
          ])->withFullUrl()
     !!}
 @stop
 
 @section('content')
-    <div class="d-flex flex-wrap">
-        <div class="min-vh-100 col-12 col-md-8 border-right  pr-md-0 px-0">
+    <div class="row">
+        <div class="min-vh-100 col-12 col-md-8 border-right  pr-md-0">
             <div class="feed-box mt-0 pt-4 mb-3 posts-wrapper">
                 @include('elements.message-alert',['classes'=>'pt-0 pb-4 px-2'])
                 @include('elements.feed.post-box')

@@ -16,7 +16,7 @@
                             @if($payment->stream->status == 'in-progress')
                                 <a href="{{route('public.stream.get',['streamID'=>$payment->stream->id,'slug'=>$payment->stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}"> {{ucfirst(__($payment->type))}}</a>
                             @else
-                                @if($payment->stream->settings && $payment->stream->settings['dvr'] && $payment->stream->vod_link)
+                                @if($payment->stream->settings['dvr'] && $payment->stream->vod_link)
                                     <a href="{{route('public.vod.get',['streamID'=>$payment->stream->id,'slug'=>$payment->stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}"> {{ucfirst(__($payment->type))}}</a>
                                 @else
                                     <span data-toggle="tooltip" data-placement="top" title="{{__('Stream VOD unavailable')}}">{{ucfirst(__($payment->type))}}</span>
@@ -32,7 +32,7 @@
                                 @if($payment->stream->status == 'in-progress')
                                     <a href="{{route('public.stream.get',['streamID'=>$payment->stream->id,'slug'=>$payment->stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}"> ({{__("Stream")}})</a>
                                 @else
-                                    @if($payment->stream->settings && $payment->stream->settings['dvr'] && $payment->stream->vod_link)
+                                    @if($payment->stream->settings['dvr'] && $payment->stream->vod_link)
                                         <a href="{{route('public.vod.get',['streamID'=>$payment->stream->id,'slug'=>$payment->stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}"> ({{__("Stream")}})</a>
                                     @else
                                         <span data-toggle="tooltip" data-placement="top" title="{{__('Stream VOD unavailable')}}">({{__("Stream")}})</span>

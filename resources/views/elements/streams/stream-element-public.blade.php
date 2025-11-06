@@ -1,5 +1,5 @@
 <div class="px-2 list-item">
-     <span class="list-link d-flex flex-column pt-2 pb-2 rounded {{--pointer-cursor--}}">
+     <span class="list-link d-flex flex-column pt-2 pb-2 pl-3 rounded {{--pointer-cursor--}}">
          <div class="d-flex flex-row-no-rtl justify-content-between">
              <div class="text-truncate overflow-hidden">
                  <div class="d-flex align-items-center" >
@@ -17,7 +17,7 @@
                              @if($stream->status == 'in-progress')
                                  <a href="{{route('public.stream.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}">{{$stream->name}}</a>
                              @else
-                                 @if($stream->settings && $stream->settings['dvr'] && $stream->vod_link)
+                                 @if($stream->settings['dvr'] && $stream->vod_link)
                                      <a href="{{route('public.vod.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}" class="text-{{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? 'white' : 'dark') : (Cookie::get('app_theme') == 'dark' ? 'white' : 'dark'))}}">{{$stream->name}}</a>
                                  @else
                                      {{$stream->name}}
@@ -32,7 +32,7 @@
              </div>
 
              <div class="d-flex justify-content-between align-items-center pr-3">
-                @if(($stream->status == 'ended' && $stream->settings && $stream->settings['dvr'] && $stream->vod_link) || $stream->status == 'in-progress')
+                @if(($stream->status == 'ended' && $stream->settings['dvr'] && $stream->vod_link) || $stream->status == 'in-progress')
                      @if($stream->price == 0)
                          <span class="badge badge-success stream-badge-label mr-2">Free</span>
                      @else
@@ -43,7 +43,7 @@
                          <span class="badge badge-warning stream-badge-label mr-2">🔒 Sub</span>
                      @endif
                  @endif
-                 @if(($stream->status == 'ended' && $stream->settings && $stream->settings['dvr'] && $stream->vod_link) || $stream->status == 'in-progress')
+                 @if(($stream->status == 'ended' && $stream->settings['dvr'] && $stream->vod_link) || $stream->status == 'in-progress')
                      <a class="h-pill h-pill-accent rounded mr-2" href="{{$stream->status == 'in-progress' ?  route('public.stream.get',['streamID'=>$stream->id,'slug'=>$stream->slug]) : route('public.vod.get',['streamID'=>$stream->id,'slug'=>$stream->slug])}}">
                           @include('elements.icon',['icon'=>'eye-outline'])
                       </a>

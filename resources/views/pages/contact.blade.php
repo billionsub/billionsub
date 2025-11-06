@@ -7,20 +7,22 @@
 @section('share_type', 'article')
 @section('share_img', GenericHelper::getOGMetaImage())
 
-@if(getSetting('security.captcha_driver') !== 'none')
-    <x-captcha-js />
+@if(getSetting('security.recaptcha_enabled'))
+@section('meta')
+    {!! NoCaptcha::renderJs() !!}
+@stop
 @endif
 
 @section('content')
     <div class="container py-5 my-5">
 
-        <div class="col-12 col-md-10 offset-md-1 mt-5">
+        <div class="col-12 col-md-8 offset-md-2 mt-5">
 
             <div class="d-flex justify-content-center">
                 <div class="col-12 col-md-7 content-md pr-5">
                     <form class="well" role="form" method="post" action="{{route('contact.send')}}">
                         <div class="col">
-                            <h2 class="h1s text-bolder mb-3">{{__("Contact us")}}</h2>
+                            <h2 class="h1s text-bold mb-3">{{__("Contact us")}}</h2>
                             <p class="mb-4">{{__("Don't hesitate to contact us for any matter. We will get back to you asap.")}}</p>
 
                             @csrf
@@ -60,8 +62,15 @@
                                 @endif
                             </div>
 
-                            @if(getSetting('security.captcha_driver') !== 'none')
-                                @include('elements.captcha-field')
+                            @if(getSetting('security.recaptcha_enabled'))
+                                <div class="form-group captcha-field">
+                                    {!! NoCaptcha::display(['data-theme' => (Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme')) : Cookie::get('app_theme') )]) !!}
+                                    @error('g-recaptcha-response')
+                                    <span class="text-danger" role="alert">
+                                        <strong>{{__("Please check the captcha field.")}}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
                             @endif
 
                             <div class="form-group">
@@ -73,9 +82,10 @@
                     </form>
                 </div>
 
-                <div class="col-12 col-md-5 d-none d-md-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-6 d-none d-md-flex justify-content-center align-items-center">
                     <img src="{{asset("/img/contact-page.svg")}}" class="img-fluid ">
                 </div>
+
 
             </div>
         </div>

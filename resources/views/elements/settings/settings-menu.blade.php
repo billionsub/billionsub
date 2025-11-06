@@ -6,7 +6,7 @@
                 <a href="{{ route('my.settings', ['type' => $route]) }}" class="list-group-item list-group-item-action d-flex justify-content-between {{ $activeSettingsTab == $route ? 'active' : '' }}">
                     <div class="d-flex align-items-center">
                         @include('elements.icon', ['icon' => $setting['icon'].'-outline', 'centered' => 'false', 'classes' => 'mr-3', 'variant' => 'medium'])
-                        <span>{{ ucfirst(__(str_replace('-', ' ', $route))) }}</span>
+                        <span>{{ ucfirst(__($route)) }}</span>
                     </div>
                     <div class="d-flex align-items-center">
                         @include('elements.icon', ['icon' => 'chevron-forward-outline'])

@@ -24,14 +24,13 @@
 @stop
 
 @section('content')
-    <div class="d-flex flex-wrap">
-        <div class="col-12 px-0">
+
+    <div class="row">
+        <div class="col-12">
             @include('elements.uploaded-file-preview-template')
             @include('elements.post-price-setup',['postPrice'=>(isset($post) ? $post->price : 0)])
-            @include('elements.post-poll-setup',['postPrice'=>(isset($post) ? $post->price : 0)])
             @include('elements.attachments-uploading-dialog')
-            @include('elements.messenger.locked-message-no-attachments-dialog',['type' => trans_choice('posts',2,['number' => ''])])
-            @include('elements.post-schedule-setup', isset($post) ? ['release_date' => $post->release_date,'expire_date' => $post->expire_date, 'create_date' => $post->created_at] : [])
+            @include('elements.post-schedule-setup', isset($post) ? ['release_date' => $post->release_date,'expire_date' => $post->expire_date] : [])
             <div class="d-flex justify-content-between pt-4 pb-3 px-3 border-bottom">
                 <h5 class="text-truncate text-bold  {{(Cookie::get('app_theme') == null ? (getSetting('site.default_user_theme') == 'dark' ? '' : 'text-dark-r') : (Cookie::get('app_theme') == 'dark' ? '' : 'text-dark-r'))}}">{{Route::currentRouteName() == 'posts.create' ? __('New post') : __('Edit post')}}</h5>
             </div>
@@ -53,7 +52,7 @@
                     <div class="w-100">
                         <textarea  id="dropzone-uploader" name="input-text" class="form-control border dropzone w-100" rows="3" spellcheck="false" placeholder="{{__('Write a new post, drag and drop files to add attachments.')}}" value="{{isset($post) ? $post->text : ''}}"></textarea>
                         <span class="invalid-feedback" role="alert">
-                            <strong class="post-invalid-feedback">{{__('text_min_if_no_media', ['min' => (int)getSetting('feed.min_post_description')])}}</strong>
+                            <strong class="post-invalid-feedback">{{__('Your post must contain more than 10 characters.')}}</strong>
                         </span>
 
                         <div class="d-flex justify-content-between w-100 mb-3 mt-3">

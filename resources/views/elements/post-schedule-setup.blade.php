@@ -10,7 +10,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label for="post_release_date">{{__('Post release date')}}</label>
-                    <input type="datetime-local" class="form-control {{ $errors->has('location') ? 'is-invalid' : '' }}" id="post_release_date" name="post_release_date"  value="{{isset($release_date) && !$create_date->equalTo(\Carbon\Carbon::parse($release_date)) ? $release_date : null}}" max="">
+                    <input type="datetime-local" class="form-control {{ $errors->has('location') ? 'is-invalid' : '' }}" id="post_release_date" name="post_release_date"  value="{{isset($release_date) ? $release_date : null}}" max="">
                     @if($errors->has('post_release_date'))
                         <span class="invalid-feedback" role="alert">
                     <strong>{{$errors->first('post_release_date')}}</strong>
@@ -30,7 +30,7 @@
 
 
             </div>
-            <div class="modal-footer d-flex justify-content-between">
+            <div class="modal-footer">
                 <button type="button" class="btn btn-white"   onclick="PostCreate.clearPostScheduleSettings()">{{__('Clear')}}</button>
                 <button type="button" class="btn btn-primary" onclick="PostCreate.savePostScheduleSettings()">{{__('Save')}}</button>
             </div>

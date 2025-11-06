@@ -14,14 +14,12 @@
             <div class="col-4">
                 <div class="d-flex justify-content-center pb-5">
                     <a href="{{route('installer.savedb')}}">
-                        <img class="brand-logo" src="{{asset('/img/logo-black.png')}}">
+                        <img class="brand-logo" src="{{asset('/img/logo-black1.png')}}">
                     </a>
                 </div>
                 <div class="col card shadow-sm">
+                    <h4 class="card-title mt-4 ml-2">{{__('Database connection')}}</h4>
                     <div class="card-body">
-                        <h4 class="card-title mt-2 mb-1 font-weight-bold">{{__('Database info')}}</h4>
-                        <p class="text-sm text-muted">{{__("Your MySQL/MariaDB connection details.")}}</p>
-                        <hr/>
                         @if(session('error'))
                             <div class="alert alert-danger text-white font-weight-bold mt-2" role="alert">
                                 {{session('error')}}

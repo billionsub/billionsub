@@ -146,19 +146,19 @@
                         </div>
 
                         <div class="mb-3">
-                            <h6 class="font-weight-bolder">{{__('Payment summary')}}</h6>
-                            <div class="subtotal row mb-1">
-                                <span class="col-sm left ">{{__('Subtotal')}}:</span>
+                            <h6>{{__('Payment summary')}}</h6>
+                            <div class="subtotal row">
+                                <span class="col-sm left"><b>{{__('Subtotal')}}:</b></span>
                                 <span class="subtotal-amount col-sm right text-right">
                                         <b>$0.00</b>
                                     </span>
                             </div>
-                            <div class="taxes row mb-1">
-                                <span class="col-sm left ">{{__('Taxes')}}</span>
+                            <div class="taxes row">
+                                <span class="col-sm left"><b>{{__('Taxes')}}</b></span>
                             </div>
-                            <div class="taxes-details mb-1"></div>
+                            <div class="taxes-details"></div>
                             <div class="total row">
-                                <span class="col-sm left ">{{__('Total')}}:</span>
+                                <span class="col-sm left"><b>{{__('Total')}}:</b></span>
                                 <span class="total-amount col-sm right text-right">
                                         <b>$0.00</b>
                                     </span>
@@ -166,78 +166,66 @@
                         </div>
 
                         <div>
-                            <h6 class="font-weight-bolder d-flex align-items-center">
-                                {{__('Payment method')}}
-{{--                                <span class="to-tooltip" title="{{__('After clicking the button, you’ll be taken to a secure payment page and then redirected back to the website once payment is complete.')}}">--}}
-{{--                                  @include('elements.icon',['icon'=>'information-circle-outline','variant'=>'small','centered'=>false, 'classes' => 'ml-1'])--}}
-{{--                                </span>--}}
-                            </h6>
-                            <div class="d-flex text-left radio-group row px-2 my-2">
+                            <h6>{{__('Payment method')}}</h6>
+                            <div class="d-flex text-left radio-group row px-2">
                                 @if(getSetting('payments.stripe_secret_key') && getSetting('payments.stripe_public_key') && !getSetting('payments.stripe_checkout_disabled'))
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 stripe-payment-method" >
-                                        <div class="radio mx-auto stripe-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="stripe">
+                                        <div class="radio mx-auto stripe-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="stripe">
                                             <img src="{{asset('/img/logos/stripe.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(config('paypal.client_id') && config('paypal.secret') && !getSetting('payments.paypal_checkout_disabled'))
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 paypal-payment-method">
-                                        <div class="radio mx-auto paypal-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="paypal">
+                                        <div class="radio mx-auto paypal-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="paypal">
                                             <img src="{{asset('/img/logos/paypal.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(getSetting('payments.coinbase_api_key') && !getSetting('payments.coinbase_checkout_disabled'))
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 d-none coinbase-payment-method">
-                                        <div class="radio mx-auto coinbase-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="coinbase">
+                                        <div class="radio mx-auto coinbase-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="coinbase">
                                             <img src="{{asset('/img/logos/coinbase.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(getSetting('payments.nowpayments_api_key') && !getSetting('payments.nowpayments_checkout_disabled'))
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 d-none nowpayments-payment-method">
-                                        <div class="radio mx-auto nowpayments-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="nowpayments">
+                                        <div class="radio mx-auto nowpayments-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="nowpayments">
                                             <img src="{{asset('/img/logos/nowpayments.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(\App\Providers\PaymentsServiceProvider::ccbillCredentialsProvided())
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 d-none ccbill-payment-method">
-                                        <div class="radio mx-auto ccbill-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="ccbill">
+                                        <div class="radio mx-auto ccbill-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="ccbill">
                                             <img src="{{asset('/img/logos/ccbill.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(getSetting('payments.paystack_secret_key') && !getSetting('payments.paystack_checkout_disabled'))
                                     <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 d-none paystack-payment-method">
-                                        <div class="radio mx-auto paystack-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="paystack">
+                                        <div class="radio mx-auto paystack-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="paystack">
                                             <img src="{{asset('/img/logos/paystack.svg')}}">
                                         </div>
                                     </div>
                                 @endif
                                 @if(getSetting('payments.stripe_secret_key') && getSetting('payments.stripe_public_key') && !getSetting('payments.stripe_checkout_disabled') && getSetting('payments.stripe_oxxo_provider_enabled'))
                                         <div class="p-1 col-6 col-md-3 col-lg-3 col-md-3 d-none oxxo-payment-method">
-                                        <div class="radio mx-auto oxxo-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="oxxo">
+                                        <div class="radio mx-auto oxxo-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="oxxo">
                                             <img src="{{asset('/img/logos/oxxo.svg')}}">
                                         </div>
                                     </div>
                                 @endif
-                                @if(getSetting('payments.mercado_access_token') && !getSetting('payments.mercado_checkout_disabled'))
-                                    <div class="p-1 col-6 col-md-3 d-none mercado-payment-method">
-                                        <div class="radio mx-auto mercado-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="mercado">
-                                            <img src="{{asset('/img/logos/mercado.svg')}}">
+                                    @if(getSetting('payments.mercado_access_token') && !getSetting('payments.mercado_checkout_disabled'))
+                                        <div class="p-1 col-6 col-md-3 d-none mercado-payment-method">
+                                            <div class="radio mx-auto mercado-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="mercado">
+                                                <img src="{{asset('/img/logos/mercado.svg')}}">
+                                            </div>
                                         </div>
-                                    </div>
-                                @endif
-                                @if(getSetting('payments.verotel_merchant_id') && getSetting('payments.verotel_shop_id') && getSetting('payments.verotel_signature_key') && !getSetting('payments.verotel_checkout_disabled'))
-                                    <div class="p-1 col-6 col-md-3 d-none verotel-payment-method">
-                                        <div class="radio mx-auto verotel-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="verotel">
-                                            <img src="{{asset('/img/logos/verotel.svg')}}">
-                                        </div>
-                                    </div>
-                                @endif
+                                    @endif
                                 <div class="credit-payment-method p-1 col-6 col-md-3 col-lg-3 col-md-3" {!! !Auth::check() || Auth::user()->wallet->total <= 0 ? 'data-toggle="tooltip" data-placement="right"' : '' !!} title="{{__('You can use the wallet deposit page to add credit.')}}">
-                                    <div class="radio mx-auto credit-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center my-0" data-value="credit">
+                                    <div class="radio mx-auto credit-payment-provider checkout-payment-provider d-flex align-items-center justify-content-center" data-value="credit">
                                         <div class="credit-provider-text">
                                             <b>{{__("Credit")}}</b>
                                             <div class="available-credit">({{\App\Providers\SettingsServiceProvider::getWebsiteFormattedAmount('0')}})</div>
@@ -247,10 +235,10 @@
                             </div>
                         </div>
                         <div class="payment-error error text-danger text-bold d-none mb-1">{{__('Please select your payment method')}}</div>
-                        <p class="text-muted mt-1 small mb-0"> {{__('After clicking the button, you’ll be taken to a secure payment page and then redirected back to the website once payment is complete.')}} </p>
+                        <p class="text-muted mt-1"> {{__('Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website.')}} </p>
                     </div>
                     <div class="modal-footer">
-{{--                        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{__('Cancel')}}</button>--}}
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{__('Cancel')}}</button>
                         <button type="submit" class="btn btn-primary checkout-continue-btn">{{__('Continue')}}
                             <div class="spinner-border spinner-border-sm ml-2 d-none" role="status">
                                 <span class="sr-only">{{__('Loading...')}}</span>

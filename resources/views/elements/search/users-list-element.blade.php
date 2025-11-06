@@ -1,5 +1,5 @@
 <div class="user-search-box-item mb-4">
-    <div class="d-flex flex-wrap">
+    <div class="row px-4">
         <div class="col-auto pr-0">
             <img src="{{$user->avatar}}" class="avatar rounded-circle shadow"/>
         </div>
@@ -25,19 +25,11 @@
                 </div>
             </div>
 
-            <div class="mt-1 description-content line-clamp-3">
-                @if($user->bio)
-                    @if(getSetting('profiles.allow_profile_bio_markdown'))
-                        {!!  GenericHelper::parseProfileMarkdownBio($user->bio) !!}
-                    @else
-                        {!!GenericHelper::parseSafeHTML($user->bio)!!}
-                    @endif
-                @else
-                    {{__('No description available.')}}
-                @endif
+            <div class="mt-1">
+                {{$user->bio ? $user->bio : __('No description available.')}}
             </div>
 
         </div>
     </div>
-</div>
 
+</div>

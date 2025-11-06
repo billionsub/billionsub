@@ -66,7 +66,6 @@
         </div>
     </div>
 
-    @if(getSetting('streams.streaming_driver') !== 'none')
         <div class="form-group">
             <div class="custom-control custom-switch">
                 <input type="checkbox" class="custom-control-input notification-checkbox" id="notification_email_creator_went_live" name="notification_email_creator_went_live"
@@ -74,6 +73,5 @@
                 <label class="custom-control-label" for="notification_email_creator_went_live">{{__('A user I am following went live')}}</label>
             </div>
         </div>
-    @endif
 
 </form>

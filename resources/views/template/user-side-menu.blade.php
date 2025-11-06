@@ -35,12 +35,7 @@
                     @include('elements.icon',['icon'=>'person-circle-outline','variant'=>'medium','centered'=>false,'classes'=>'mr-2'])
                     {{__('My profile')}}</a>
             </li>
-            <li class="{{Route::currentRouteName() == 'my.notifications' ? 'active' : ''}} ">
-                <a class="scroll-link d-flex align-items-center" href="{{route('my.notifications')}}">
-                    @include('elements.icon',['icon'=>'notifications-outline','variant'=>'medium','centered'=>false,'classes'=>'mr-2'])
-                    {{__('Notifications')}}</a>
-            </li>
-            @if(getSetting('streams.streaming_driver') !== 'none')
+            @if(getSetting('streams.allow_streams'))
                 <li class="{{ in_array(Route::currentRouteName(), ['my.streams.get', 'public.stream.get', 'public.vod.get']) ? 'active' : ''}}">
                     <a class="scroll-link d-flex align-items-center" href="{{route('my.streams.get')}}">
                         @include('elements.icon',['icon'=>'play-circle-outline','variant'=>'medium','centered'=>false,'classes'=>'mr-2'])
@@ -99,7 +94,7 @@
                     @foreach(LocalesHelper::getAvailableLanguages() as $languageCode)
                         @if(LocalesHelper::getLanguageName($languageCode))
                             <li>
-                                <a class="scroll-link d-flex align-items-center" href="{{route('language',['locale' => $languageCode])}}" rel="nofollow">{{ucfirst(__(LocalesHelper::getLanguageName($languageCode)))}}</a>
+                                <a class="scroll-link d-flex align-items-center" href="{{route('language',['locale' => $languageCode])}}">{{ucfirst(__(LocalesHelper::getLanguageName($languageCode)))}}</a>
                             </li>
                         @endif
                     @endforeach

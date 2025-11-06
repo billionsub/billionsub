@@ -5,6 +5,7 @@
     ($announcement->is_global || (!$announcement->is_global && in_array(Route::currentRouteName(),['home'])))
     && !request()->cookie('dismissed_banner_' . $announcement->id)
     && (!$announcement->expiring_at || ($announcement->expiring_at && $announcement->expiring_at > \Carbon\Carbon::now()))
+
     )
     <div class="{{$announcement->is_sticky ? 'sticky-info-bar' : ''}} alert alert-dismissible fade show mb-0 p-0 border-0 global-announcement-banner" role="alert" data-banner-id="{{$announcement->id}}">
         <div class="content text-center block bg-gradient-faded-primary text-dark {{$announcement->size === 'small' ? 'py-1' : 'py-3'}}">

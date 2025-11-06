@@ -1,7 +1,7 @@
-<div class="stream-details d-flex justify-content-between">
+<div class="stream-details mb-2 d-flex justify-content-between">
     <div class="mr-4 overflow-hidden">
 
-        <div class="d-flex flex-row <!--my-1-->">
+        <div class="d-flex flex-row my-1">
             <div class="d-flex justify-content-center">
                 <img class="rounded-circle avatar" src="{{$stream->user->avatar}}" alt="{{$stream->user->username}}">
             </div>
@@ -13,7 +13,7 @@
                         </h5>
                     </div>
                     @if(!isset($streamEnded))
-                        <span class=""><span class=""><span class="live-stream-users-count">0</span> {{__("Watching")}} </span>• {{__("Started streaming")}} {{\Carbon\Carbon::parse($stream->created_at)->diffForhumans()}}.</span>
+                        <span class="text-muted"><span class="live-stream-users-count">0</span> {{__("Watching")}} • {{__("Started streaming")}} {{\Carbon\Carbon::parse($stream->created_at)->diffForhumans()}}.</span>
                     @else
                         {{__('Stream ended :time time ago',['time'=>\Carbon\Carbon::parse($stream->ended_at)->diffForhumans()])}}
                     @endif
@@ -29,10 +29,10 @@
                 <div class="d-none d-sm-block">
                                 <span class="p-pill ml-2 pointer-cursor to-tooltip stream-subscribe-button"
                                       @if(!\App\Providers\GenericHelperServiceProvider::creatorCanEarnMoney($stream->user))
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('This creator cannot earn money yet')}}"
                                       @else
-                                          data-toggle="modal"
+                                      data-toggle="modal"
                                       data-target="#checkout-center"
                                       data-type="one-month-subscription"
                                       data-recipient-id="{{$stream->user->id}}"
@@ -60,10 +60,10 @@
                 <div class="d-none d-sm-block">
                                 <span class="p-pill ml-2 pointer-cursor to-tooltip stream-unlock-button"
                                       @if(!GenericHelper::creatorCanEarnMoney($stream->user))
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('This creator cannot earn money yet')}}"
                                       @else
-                                          data-toggle="modal"
+                                      data-toggle="modal"
                                       data-target="#checkout-center"
                                       data-type="stream-access"
                                       data-recipient-id="{{$stream->user->id ? $stream->user->id : ''}}"
@@ -91,10 +91,10 @@
                 <div class="">
                                 <span class="p-pill ml-2 pointer-cursor to-tooltip"
                                       @if(!GenericHelper::creatorCanEarnMoney($stream->user))
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('This creator cannot earn money yet')}}"
                                       @else
-                                          data-placement="top"
+                                      data-placement="top"
                                       title="{{__('Send a tip')}}"
                                       data-toggle="modal"
                                       data-target="#checkout-center"
@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="dropdown {{GenericHelper::getSiteDirection() == 'rtl' ? 'dropright' : 'dropleft'}}">
-                    <div class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"">
                         <span class="p-pill ml-2 pointer-cursor to-tooltip" title="{{__("More")}}" >
                             @include('elements.icon',['icon'=>'ellipsis-horizontal-outline'])
                         </span>
@@ -132,19 +132,17 @@
 
             @endif
 
-            @if(!$stream->isLivekitDriver())
-                @if($stream->user->id === Auth::user()->id)
-                    <div class="d-none d-sm-block">
-                        <a class="p-pill ml-2 pointer-cursor to-tooltip" href="{{route('my.streams.get')}}?action=details" title="{{__("Stream details")}}">
-                            @include('elements.icon',['icon'=>'server-outline'])
-                        </a>
-                    </div>
-                    <div class="d-none d-sm-block">
-                        <a class="p-pill ml-2 pointer-cursor to-tooltip" href="{{route('my.streams.get')}}?action=edit" title="{{__("Edit stream")}}">
-                            @include('elements.icon',['icon'=>'create-outline'])
-                        </a>
-                    </div>
-                @endif
+            @if($stream->user->id === Auth::user()->id)
+                <div class="d-none d-sm-block">
+                    <a class="p-pill ml-2 pointer-cursor to-tooltip" href="{{route('my.streams.get')}}?action=details" title="{{__("Stream details")}}">
+                        @include('elements.icon',['icon'=>'server-outline'])
+                    </a>
+                </div>
+                <div class="d-none d-sm-block">
+                    <a class="p-pill ml-2 pointer-cursor to-tooltip" href="{{route('my.streams.get')}}?action=edit" title="{{__("Edit stream")}}">
+                        @include('elements.icon',['icon'=>'create-outline'])
+                    </a>
+                </div>
             @endif
 
         </div>

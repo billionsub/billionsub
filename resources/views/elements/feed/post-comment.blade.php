@@ -6,15 +6,11 @@
 
     <div class="pl-3 w-100 post-comment-content">
         <div class="d-flex flex-row justify-content-between">
-            <div class="text-bold d-flex align-items-center">
-                <a href="{{route('profile',['username'=>$comment->author->username])}}" class="text-dark-r">{{$comment->author->username}}</a>
+            <div class="text-bold d-flex align-items-center"><a href="{{route('profile',['username'=>$comment->author->username])}}" class="text-dark-r">{{$comment->author->username}}</a>
                 @if($comment->author->email_verified_at && $comment->author->birthdate && ($comment->author->verification && $comment->author->verification->status == 'verified'))
-                    <span data-toggle="tooltip" data-placement="top" title="{{__('Verified user')}}">
+                    <span class="ml-1" data-toggle="tooltip" data-placement="top" title="{{__('Verified user')}}">
                         @include('elements.icon',['icon'=>'checkmark-circle-outline','centered'=>true,'classes'=>'ml-1 text-primary'])
                     </span>
-                @endif
-                @if(isset($isFirst) && $isFirst === true)
-                    <span class="border fs-point-75 text-muted px-1 ml-1 rounded" data-toggle="tooltip" data-placement="top" title="{{__('First comment')}}">{{__('First')}}</span>
                 @endif
             </div>
             <div class="position-absolute separator">
@@ -37,7 +33,7 @@
             </div>
         </div>
         <div>
-            <div class="py-1">
+            <div class="">
                 <div class="text-break comment-content">{{$comment->message}}</div>
             </div>
             <div class="d-flex text-muted">

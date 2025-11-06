@@ -1,9 +1,8 @@
 <div class="stream-chat {{$stream->canWatchStream ? '' : 'mt-3'}}">
+    @include('elements.message-alert',['classes'=>'py-3'])
+
     @if($stream->canWatchStream)
-
-        @include('elements.streams.stream-tips-box')
-
-        <div class="chat-content conversations-wrapper overflow-hidden pb-1 px-3 flex-fill pt-3">
+        <div class="chat-content conversations-wrapper overflow-hidden pb-1 px-3 flex-fill">
             <div class="conversation-content pt-1 pb-1 px-2 flex-fill">
                 @if($stream->messages->count())
                     @foreach($stream->messages as $message)

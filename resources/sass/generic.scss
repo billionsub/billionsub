@@ -113,10 +113,10 @@ footer{
     .post-box .h-pill{
         border-radius: 50%;
     }
-    //.post-media{
-    //    margin-left:-16px;
-    //    margin-right: -16px;
-    //}
+    .post-media{
+        margin-left:-16px;
+        margin-right: -16px;
+    }
     .container-xl{
         padding-left:14px;
     }
@@ -177,10 +177,10 @@ footer{
     .post-box .h-pill{
         border-radius: 50%;
     }
-    //.post-media{
-    //    margin-left:-16px;
-    //    margin-right: -16px;
-    //}
+    .post-media{
+        margin-left:-16px;
+        margin-right: -16px;
+    }
     .container-xl{
         padding-left:14px;
     }
@@ -590,24 +590,6 @@ footer{
     border-radius: 50%;
 }
 
-/* The small green dot in the bottom-right corner */
-.online-indicator {
-    position: absolute;
-    margin-left:-20px;
-    bottom: 5px;
-    right: 20px;
-    width: 18px; /* Adjust as you like */
-    height: 18px;
-    background-color: #28a745; /* green */
-    @if $color-scheme-alt == dark {
-        border:2px solid $white;
-    } @else {
-        border:2px solid $dark;
-    }
-    border-radius: 50%;
-}
-
-
 .table-wrapper{
     //background-color: rgba($gray-100-alt,20%);
 }
@@ -665,39 +647,8 @@ a.text-dark:hover,  a.text-light:hover,  a.text-white:hover,  a.text-black:hover
     content:none!important;
 }
 
-.posts-wrapper .locked-media{
-    object-fit: cover; /* Do not scale the image */
-    width: 100%;
-    max-height: 550px; // This gets feed.post_box_max_height value if present!
-    height: 550px;
+.posts-wrapper .post-media{
 
-    background-size: cover; /* Use 'contain' if you prefer */
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.ppv-info-bg {
-    color: $primary;
-    background-color: rgba(255, 255, 255, 0.3); /* Adjust color and opacity as needed */
-}
-
-.non-blur-locked-actions .ppv-info-bg{
-    @if $color-scheme-alt == dark {
-        color: $primary;
-        background-color: rgba(255, 255, 255, 0.3); /* Adjust color and opacity as needed */
-    } @else {
-        color: $white;
-        background: transparent;
-    }
-}
-
-.bg-contain{
-    background-size: contain!important;
-}
-
-.svg-locked-post{
-    height: 280px!important;
 }
 
 .posts-wrapper .post-media-image{
@@ -821,7 +772,7 @@ a.text-dark:hover,  a.text-light:hover,  a.text-white:hover,  a.text-black:hover
     }
 }
 
-.public-page-content p{
+.page-content-wrapper p{
     @if $color-scheme-alt == dark {
         color: $dark!important;
 
@@ -933,7 +884,7 @@ a.text-dark:hover,  a.text-light:hover,  a.text-white:hover,  a.text-black:hover
 
 .notification-box .avatar {
     @if $color-scheme-alt == dark {
-        outline: 3px solid $border-color!important;
+       outline: 3px solid $border-color!important;
     } @else {
         outline: 3px solid $border-color-alt!important;
     }
@@ -1090,104 +1041,3 @@ a.text-dark:hover,  a.text-light:hover,  a.text-white:hover,  a.text-black:hover
 .global-announcement-banner a:hover{
     color:darken($white,10)!important;
 }
-
-.bg-secondary-neutral{
-    @if $color-scheme-alt == dark {
-        background-color: $list-group-action-active-bg!important;
-    }
-    @else{
-        background-color: $list-group-action-active-bg-alt!important;
-    }
-}
-
-input[type="date"], input[type="datetime-local"] {
-    @if $color-scheme-alt == dark {
-        color-scheme: light;
-    } @else {
-        color-scheme: dark;
-    }
-}
-
-// MDE editor
-
-
-.EasyMDEContainer {
-    @if $color-scheme-alt == dark {
-        //background-color: #3B3B3B!important;
-        background-color: $input-bg!important;
-    } @else {
-        //background-color: #3B3B3B!important;
-        background-color: $input-bg-alt!important;
-    }
-}
-
-.CodeMirror, .editor-preview {
-    @if $color-scheme-alt == dark {
-        //background-color: #3B3B3B!important;
-        background-color: $input-bg!important;
-        color: $input-color!important;
-        border-color: $input-border-color !important;
-    } @else {
-        //background-color: #3B3B3B!important;
-        background-color: $input-bg-alt!important;
-        color: $input-color-alt!important;
-        border-color: $input-border-color-alt !important;
-    }
-}
-
-.cm-s-easymde .CodeMirror-cursor {
-    @if $color-scheme-alt == dark {
-        border-color: $input-border-color !important;
-    } @else {
-        border-color: $input-border-color-alt !important;
-    }
-}
-
-.editor-toolbar{
-    @if $color-scheme-alt == dark {
-        border-color: $input-border-color !important;
-    } @else {
-        border-color: $input-border-color-alt !important;
-    }
-}
-
-.editor-toolbar button i {
-    @if $color-scheme-alt == dark {
-        color: $dark !important;
-    } @else {
-        color: $white-alt !important;
-    }
-}
-
-.editor-toolbar button.active, .editor-toolbar button:hover {
-    @if $color-scheme-alt == dark {
-    } @else {
-        background-color: transparent !important; // Fixes toolbar buttons from appearing as white when hovered or selected
-    }
-}
-
-.editor-preview pre {
-    @if $color-scheme-alt == dark {
-    } @else {
-        background-color: #333 !important; // This fixes code blocks in Markdown appearing with a white background
-    }
-}
-
-// EOF MDe editor
-
-
-// menus transitions
-
-.user-side-menu .nav-link {
-    transition: 0.15s;
-}
-
-.card-settings a, .sidebar a, .lists-wrapper a, .lists-wrapper .list-link{
-    transition: 0.15s;
-}
-
-.contact-box{
-    transition: 0.15s;
-}
-
-// EOF menu transitions

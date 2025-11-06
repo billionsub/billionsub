@@ -8,8 +8,6 @@
         '/js/plugins/toasts.js',
         '/libs/cookieconsent/build/cookieconsent.min.js',
         '/libs/xss/dist/xss.min.js',
-        '/libs/pusher-js-auth/lib/pusher-auth.js',
-        '/js/Websockets.js',
         '/js/app.js',
     ],
     (isset($additionalJs) ? $additionalJs : [])
@@ -28,17 +26,8 @@
 <script type="module" src="{{asset('/libs/ionicons/dist/ionicons/ionicons.esm.js')}}"></script>
 <script nomodule src="{{asset('/libs/ionicons/dist/ionicons/ionicons.js')}}"></script>
 
-{{--<script src="https://cdn.jsdelivr.net/npm/livekit-client@2.9.0/dist/livekit-client.umd.min.js"></script>--}}
-{{--<script type="module">--}}
-{{--    import livekitClient from 'https://cdn.jsdelivr.net/npm/livekit-client@2.9.0/+esm'--}}
-{{--</script>--}}
-
-{{--<script src="https://cdn.jsdelivr.net/npm/livekit-client/dist/livekit-client.umd.min.js"></script>--}}
-
-<script src="https://cdn.jsdelivr.net/npm/livekit-client@2.9.1/dist/livekit-client.umd.min.js"></script>
-
-@if(getSetting('code-and-ads.custom_js'))
-    {!! getSetting('code-and-ads.custom_js') !!}
+@if(getSetting('custom-code-ads.custom_js'))
+    {!! getSetting('custom-code-ads.custom_js') !!}
 @endif
 
 @include('elements.translations')

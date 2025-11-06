@@ -8,8 +8,10 @@
 @section('share_type', 'article')
 @section('share_img', GenericHelper::getOGMetaImage())
 
-@if(getSetting('security.captcha_driver') !== 'none' && !Auth::check())
-    <x-captcha-js />
+@if(getSetting('security.recaptcha_enabled') && !Auth::check())
+    @section('meta')
+        {!! NoCaptcha::renderJs() !!}
+    @stop
 @endif
 
 @section('content')
