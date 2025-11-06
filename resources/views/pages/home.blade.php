@@ -17,7 +17,7 @@
     "address": ""
   }
 </script>
-@stop
+@endsection
 
 @section('styles')
     {!!
@@ -26,7 +26,7 @@
             '/css/pages/search.css',
          ])->withFullUrl()
     !!}
-@stop
+@endsection
 
 @section('content')
 
@@ -262,4 +262,4 @@
             },
         });
     </script>
-@stop
+@endsection
