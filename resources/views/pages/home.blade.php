@@ -8,16 +8,18 @@
 @section('share_img', GenericHelper::getOGMetaImage())
 
 @section('scripts')
-    <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "{{getSetting('site.name')}}",
-    "url": "{{getSetting('site.app_url')}}",
-    "address": ""
-  }
-</script>
-@endsection
+    @verbatim
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "{{getSetting('site.name')}}",
+              "url": "{{getSetting('site.app_url')}}",
+              "address": ""
+            }
+        </script>
+    @endverbatim
+@stop
 
 @section('styles')
     {!!
@@ -221,7 +223,7 @@
                         @foreach($featuredMembers as $member)
                             <div class="col-12 col-md-4 p-1">
                                 <div class="p-2">
-                                    @include('elements.vertical-member-card',['profile' => $member])
+                                    @include('elements.feed.suggestion-card',['profile' => $member])
                                 </div>
                             </div>
                         @endforeach
