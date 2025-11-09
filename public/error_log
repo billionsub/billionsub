@@ -1,0 +1,1062 @@
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Collection::filter(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 379
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Collection::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 397
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Collection::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 741
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Traits\EnumeratesValues::times(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php on line 162
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Traits\EnumeratesValues::whenEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php on line 482
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Traits\EnumeratesValues::whenNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php on line 496
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Traits\EnumeratesValues::unlessEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php on line 510
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Traits\EnumeratesValues::unlessNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php on line 524
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::times(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 40
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::filter(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 298
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::when(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 310
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::when(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 310
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::whenEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 321
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::whenNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 332
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::unless(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 344
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::unlessEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 355
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::unlessNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 366
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 478
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Support\Enumerable::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 620
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Model::replicate(): Implicitly marking parameter $except as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 1717
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Model::replicateQuietly(): Implicitly marking parameter $except as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 1744
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\VarDumper\Cloner\AbstractCloner::__construct(): Implicitly marking parameter $casters as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 218
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\VarDumper\Dumper\HtmlDumper::__construct(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 80
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\VarDumper\Dumper\CliDumper::__construct(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/var-dumper/Dumper/CliDumper.php on line 67
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\VarDumper\Dumper\AbstractDumper::__construct(): Implicitly marking parameter $charset as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 45
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\VarDumper\VarDumper::setHandler(): Implicitly marking parameter $callable as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/var-dumper/VarDumper.php on line 49
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Console\Application::run(): Implicitly marking parameter $input as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 90
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Console\Application::run(): Implicitly marking parameter $output as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 90
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Console\Application::run(): Implicitly marking parameter $input as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/console/Application.php on line 137
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Console\Application::run(): Implicitly marking parameter $output as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/console/Application.php on line 137
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Console\Application::all(): Implicitly marking parameter $namespace as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/console/Application.php on line 755
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Console\Application::extractNamespace(): Implicitly marking parameter $limit as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/console/Application.php on line 1116
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Monolog\Logger::addRecord(): Implicitly marking parameter $datetime as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/monolog/monolog/src/Monolog/Logger.php on line 340
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Validation\Factory::__construct(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Validation/Factory.php on line 90
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\View\Compilers\BladeCompiler::anonymousComponentPath(): Implicitly marking parameter $prefix as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 796
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\View\Compilers\BladeCompiler::anonymousComponentNamespace(): Implicitly marking parameter $prefix as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 818
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\View\FileViewFinder::__construct(): Implicitly marking parameter $extensions as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 53
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Mailer\Transport\AbstractTransport@anonymous(): Implicitly marking parameter $envelope as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/barryvdh/laravel-debugbar/src/LaravelDebugbar.php on line 470
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  DebugBar\DebugBar::setStorage(): Implicitly marking parameter $storage as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/maximebf/debugbar/src/DebugBar/DebugBar.php on line 149
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::__construct(): Implicitly marking parameter $formatter as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 71
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::__construct(): Implicitly marking parameter $cacheDir as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 71
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::addResource(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 109
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::trans(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 176
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::trans(): Implicitly marking parameter $locale as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 176
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Translator::getCatalogue(): Implicitly marking parameter $locale as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Translator.php on line 211
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\MessageCatalogue::all(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/MessageCatalogue.php on line 66
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\MessageCatalogueInterface::all(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/MessageCatalogueInterface.php on line 42
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\TranslatorBagInterface::getCatalogue(): Implicitly marking parameter $locale as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/TranslatorBagInterface.php on line 28
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Carbon\AbstractTranslator::__construct(): Implicitly marking parameter $formatter as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/nesbot/carbon/src/Carbon/AbstractTranslator.php on line 81
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Formatter\MessageFormatter::__construct(): Implicitly marking parameter $translator as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Formatter/MessageFormatter.php on line 31
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Translation\Formatter\MessageFormatter::__construct(): Implicitly marking parameter $intlFormatter as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation/Formatter/MessageFormatter.php on line 31
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Contracts\Translation\TranslatorTrait::trans(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation-contracts/TranslatorTrait.php on line 44
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Contracts\Translation\TranslatorTrait::trans(): Implicitly marking parameter $locale as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/translation-contracts/TranslatorTrait.php on line 44
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Log\Logger::__construct(): Implicitly marking parameter $dispatcher as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 43
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Carbon\CarbonPeriod::getStartDate(): Implicitly marking parameter $rounding as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php on line 1020
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Carbon\CarbonPeriod::getEndDate(): Implicitly marking parameter $rounding as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php on line 1034
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Carbon\CarbonPeriod::calculateEnd(): Implicitly marking parameter $rounding as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php on line 1902
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Foundation\Validation\ValidatesRequests::validateWith(): Implicitly marking parameter $request as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php on line 21
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Spatie\LaravelIgnition\Recorders\DumpRecorder\MultiDumpHandler::addHandler(): Implicitly marking parameter $callable as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/MultiDumpHandler.php on line 19
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Auth\SessionGuard::__construct(): Implicitly marking parameter $request as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php on line 123
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Auth\SessionGuard::__construct(): Implicitly marking parameter $timebox as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php on line 123
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Notifications\RoutesNotifications::notifyNow(): Implicitly marking parameter $channels as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php on line 28
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  TCG\Voyager\Traits\Translatable::getTranslationsOf(): Implicitly marking parameter $languages as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/tcg/voyager/src/Traits/Translatable.php on line 144
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\MySqlConnection::getSchemaState(): Implicitly marking parameter $files as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php on line 67
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\MySqlConnection::getSchemaState(): Implicitly marking parameter $processFactory as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php on line 67
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Schema\Builder::createBlueprint(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php on line 449
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Auth\Access\Gate::__construct(): Implicitly marking parameter $guessPolicyNamesUsingCallback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php on line 90
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Auth\Access\Gate::resource(): Implicitly marking parameter $abilities as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php on line 216
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Contracts\Auth\Access\Gate::resource(): Implicitly marking parameter $abilities as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Access/Gate.php on line 32
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  League\Flysystem\Local\LocalFilesystemAdapter::__construct(): Implicitly marking parameter $visibility as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/league/flysystem-local/LocalFilesystemAdapter.php on line 72
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  League\Flysystem\Local\LocalFilesystemAdapter::__construct(): Implicitly marking parameter $mimeTypeDetector as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/league/flysystem-local/LocalFilesystemAdapter.php on line 75
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  League\MimeTypeDetection\FinfoMimeTypeDetector::__construct(): Implicitly marking parameter $extensionMap as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/league/mime-type-detection/src/FinfoMimeTypeDetector.php on line 42
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  League\Flysystem\Filesystem::__construct(): Implicitly marking parameter $pathNormalizer as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/league/flysystem/src/Filesystem.php on line 25
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Query\Builder::__construct(): Implicitly marking parameter $grammar as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 239
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Query\Builder::__construct(): Implicitly marking parameter $processor as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 239
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Query\Builder::findOr(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 2627
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Builder::withoutGlobalScopes(): Implicitly marking parameter $scopes as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 199
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Builder::findOr(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 521
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Builder::firstOr(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 608
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::has(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 32
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::doesntHave(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 125
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::whereHas(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 150
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::withWhereHas(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 166
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::orWhereHas(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 181
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::whereDoesntHave(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 193
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::orWhereDoesntHave(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 205
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::hasMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 221
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::doesntHaveMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 300
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::whereHasMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 327
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::orWhereHasMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 342
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::whereDoesntHaveMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 355
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Database\Eloquent\Concerns\QueriesRelationships::orWhereDoesntHaveMorph(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php on line 368
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Process\ExecutableFinder::find(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/process/ExecutableFinder.php on line 47
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Pipeline\Pipeline::__construct(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php on line 47
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\Routing\CompiledRoute::__construct(): Implicitly marking parameter $hostRegex as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/routing/CompiledRoute.php on line 40
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Session\Middleware\StartSession::__construct(): Implicitly marking parameter $cacheFactoryResolver as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php on line 38
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\Session\Middleware\StartSession::sessionIsPersistent(): Implicitly marking parameter $config as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php on line 282
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\View\View::render(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php on line 144
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Illuminate\View\Engines\CompilerEngine::__construct(): Implicitly marking parameter $files as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php on line 40
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Response::setStatusCode(): Implicitly marking parameter $text as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Response.php on line 443
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Response::setExpires(): Implicitly marking parameter $date as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Response.php on line 717
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Response::setLastModified(): Implicitly marking parameter $date as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Response.php on line 864
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Response::setEtag(): Implicitly marking parameter $etag as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Response.php on line 902
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Response::isRedirect(): Implicitly marking parameter $location as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Response.php on line 1194
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\ResponseHeaderBag::all(): Implicitly marking parameter $key as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 89
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\ResponseHeaderBag::removeCookie(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 187
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\ResponseHeaderBag::clearCookie(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 240
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\ResponseHeaderBag::clearCookie(): Implicitly marking parameter $sameSite as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/ResponseHeaderBag.php on line 240
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Devfactory\Minify\Providers\BaseProvider::__construct(): Implicitly marking parameter $file as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 61
+[07-Nov-2025 12:44:26 UTC] PHP Deprecated:  Symfony\Component\HttpKernel\Exception\HttpException::__construct(): Implicitly marking parameter $previous as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[07-Nov-2025 12:44:26 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::create(): Implicitly marking parameter $value as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 72
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::create(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 72
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::create(): Implicitly marking parameter $secure as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 72
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::__construct(): Implicitly marking parameter $value as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 90
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::__construct(): Implicitly marking parameter $domain as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 90
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Symfony\Component\HttpFoundation\Cookie::__construct(): Implicitly marking parameter $secure as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/symfony/http-foundation/Cookie.php on line 90
+[07-Nov-2025 12:44:39 UTC] PHP Deprecated:  Illuminate\Http\RedirectResponse::withInput(): Implicitly marking parameter $input as nullable is deprecated, the explicit nullable type must be used instead in /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 74
+[07-Nov-2025 12:44:43 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:44:48 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:45:29 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:45:30 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:46:30 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/libs/cookieconsent/build/cookieconsent.min.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
+[07-Nov-2025 12:46:59 UTC] PHP Fatal error:  Uncaught Devfactory\Minify\Exceptions\FileNotExistException: File '/home/billbnqh/repositories/billionsub/public/css/theme/bootstrap.css' does not exist in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php(114): Devfactory\Minify\Providers\BaseProvider->add()
+#1 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(162): Devfactory\Minify\Providers\BaseProvider->add()
+#2 /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Minify.php(91): Devfactory\Minify\Minify->process()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Devfactory\Minify\Minify->stylesheet()
+#4 /home/billbnqh/repositories/billionsub/storage/framework/views/347c31c8b533337672dea6df9d910c22878e4357.php(71): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#12 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#20 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#29 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#33 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#34 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#35 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#36 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#37 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#38 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#39 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#40 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#41 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/css/theme/bootstrap.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/dc7533d124fa67c04863c3cf08c060fc503649ad.php(4): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#21 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#25 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#26 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#27 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#28 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#29 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#31 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#32 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#33 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#34 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/css/theme/bootstrap.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/storage/framework/views/a8076f46f7de75d872a035141331a3a0f139b3dd.php(23): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require('/home/billbnqh/...')
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(110): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():106}()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#13 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#17 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#18 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#19 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#20 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#21 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#22 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#23 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#24 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#26 {main}
+
+Next Illuminate\View\ViewException: File '/home/billbnqh/repositories/billionsub/public/css/theme/bootstrap.css' does not exist (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) (View: /home/billbnqh/repositories/billionsub/resources/views/template/head.blade.php) in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php:124
+Stack trace:
+#0 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(70): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(195): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(178): Illuminate\View\View->getContents()
+#4 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/View/View.php(147): Illuminate\View\View->renderContents()
+#5 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\Http\Response->__construct()
+#8 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\Routing\ResponseFactory->make()
+#9 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(626): Illuminate\Routing\ResponseFactory->view()
+#10 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#13 /home/billbnqh/repositories/billionsub/app/Exceptions/Handler.php(53): Illuminate\Foundation\Exceptions\Handler->render()
+#14 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): App\Exceptions\Handler->render()
+#15 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/billbnqh/repositories/billionsub/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():269}()
+#18 {main}
+  thrown in /home/billbnqh/repositories/billionsub/vendor/devfactory/minify/src/Providers/BaseProvider.php on line 124
