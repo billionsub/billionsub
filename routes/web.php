@@ -222,7 +222,7 @@ Route::post('/payment/btcpayWebhook', [PaymentsController::class, 'btcpayWebhook
 // Create BTCPay invoice (redirect user to BTCPay payment page)
 Route::get('/pay-bitcoin/{orderId}', [PaymentsController::class, 'payWithBitcoin'])
     ->name('pay.bitcoin');
-
+Route::post('/create-btc-invoice', [PaymentsController::class, 'createInvoice']);
 Route::post('payment/stripeStatusUpdate', [
     'as'   => 'stripe.payment.update',
     'uses' => 'PaymentsController@stripePaymentsHook',
