@@ -214,6 +214,14 @@ Route::any('beacon/{type}', [
     'as'   => 'beacon.send',
     'uses' => 'StatsController@sendBeacon',
 ]);
+use App\Http\Controllers\PaymentsController;
+// BTCPay Webhook Route
+Route::post('/payment/btcpayWebhook', [PaymentsController::class, 'btcpayWebhook'])
+    ->withoutMiddleware(['throttle'])
+    ->name('btcpay.webhook');
+// Create BTCPay invoice (redirect user to BTCPay payment page)
+Route::get('/pay-bitcoin/{orderId}', [PaymentsController::class, 'payWithBitcoin'])
+    ->name('pay.bitcoin');
 
 Route::post('payment/stripeStatusUpdate', [
     'as'   => 'stripe.payment.update',

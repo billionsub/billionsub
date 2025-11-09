@@ -33,7 +33,16 @@ class PaymentsController extends Controller
     {
         $this->paymentHandler = $paymentHandler;
     }
+    public function payWithBitcoin($orderId)
+    {
+        $order = Order::findOrFail($orderId);
+        $btcpay = new BTCPayService();
 
+        $invoice = $btcpay->createInvoice($order->total, 'USD', $order->id);
+
+        // Redirect the user to the BTCPay invoice page
+        return redirect($invoice['url']);
+    }
     public function paymentInitiateValidator(CreateTransactionRequest $request) {
         return response()->json([
             'status' => 200,
