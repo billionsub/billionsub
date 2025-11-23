@@ -16,6 +16,18 @@
 
 <div>
     <div class="payment-method">
+        @if(getSetting('payments.btcpay_enabled'))
+            <div class="custom-control custom-radio mb-1">
+                <input type="radio" id="customRadioBtcpay" name="payment-radio-option"
+                       class="custom-control-input"
+                       value="payment-btcpay">
+                <label class="custom-control-label" for="customRadioBtcpay">
+                    {{ __("Bitcoin / Lightning (BTCPay)") }}
+                </label>
+            </div>
+        @endif
+
+
         @if(config('paypal.client_id') && config('paypal.secret'))
             <div class="custom-control custom-radio mb-1">
                 <input type="radio" id="customRadio1" name="payment-radio-option" class="custom-control-input"
