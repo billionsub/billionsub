@@ -146,9 +146,10 @@ class PaymentsController extends Controller
 
                     if ($transaction['payment_provider'] == Transaction::PAYPAL_PROVIDER) {
                         $redirectLink = $this->paymentHandler->initiateOneTimePaypalTransaction($transaction);
+                    } elseif ($transaction['payment_provider'] == Transaction::BTCPAY_PROVIDER) {
+                        $redirectLink = $this->PaymentHandler->generateBtcpayInvoice($transaction);
                     } elseif ($transaction['payment_provider'] == Transaction::CREDIT_PROVIDER) {
-                        $this->paymentHandler->generateOneTimeCreditTransaction($transaction);
-                    } elseif($transaction['payment_provider'] == Transaction::COINBASE_PROVIDER){
+                     }elseif($transaction['payment_provider'] == Transaction::COINBASE_PROVIDER){
                         $redirectLink = $this->paymentHandler->generateCoinBaseTransaction($transaction);
                     } elseif($transaction['payment_provider'] == Transaction::NOWPAYMENTS_PROVIDER) {
                         $redirectLink = $this->paymentHandler->generateNowPaymentsTransaction($transaction);
@@ -160,22 +161,27 @@ class PaymentsController extends Controller
                         $redirectLink = $this->paymentHandler->generateMercadoTransaction($transaction);
                     }
                     break;
-                case Transaction::DEPOSIT_TYPE:
-                    $transaction['recipient_user_id'] = Auth::user()->id;
-                    if ($transaction['payment_provider'] == Transaction::PAYPAL_PROVIDER) {
-                        $redirectLink = $this->paymentHandler->initiateOneTimePaypalTransaction($transaction);
-                    } elseif($transaction['payment_provider'] == Transaction::COINBASE_PROVIDER){
-                        $redirectLink = $this->paymentHandler->generateCoinBaseTransaction($transaction);
-                    } elseif($transaction['payment_provider'] == Transaction::NOWPAYMENTS_PROVIDER) {
-                        $redirectLink = $this->paymentHandler->generateNowPaymentsTransaction($transaction);
-                    } elseif($transaction['payment_provider'] == Transaction::CCBILL_PROVIDER) {
-                        $redirectLink = $this->paymentHandler->generateCCBillOneTimePaymentTransaction($transaction);
-                    } elseif($transaction['payment_provider'] == Transaction::PAYSTACK_PROVIDER) {
-                        $redirectLink = $this->paymentHandler->generatePaystackTransaction($transaction, Auth::user()->email);
-                    } elseif($transaction['payment_provider'] == Transaction::MERCADO_PROVIDER) {
-                        $redirectLink = $this->paymentHandler->generateMercadoTransaction($transaction);
-                    }
-                    break;
+                    case Transaction::DEPOSIT_TYPE:
+                        $transaction['recipient_user_id'] = Auth::user()->id;
+                    
+                        if ($transaction['payment_provider'] == Transaction::PAYPAL_PROVIDER) {
+                            $redirectLink = $this->paymentHandler->initiateOneTimePaypalTransaction($transaction);
+                        } elseif($transaction['payment_provider'] == Transaction::COINBASE_PROVIDER){
+                            $redirectLink = $this->paymentHandler->generateCoinBaseTransaction($transaction);
+                        } elseif($transaction['payment_provider'] == Transaction::NOWPAYMENTS_PROVIDER) {
+                            $redirectLink = $this->paymentHandler->generateNowPaymentsTransaction($transaction);
+                        } elseif($transaction['payment_provider'] == Transaction::CCBILL_PROVIDER) {
+                            $redirectLink = $this->paymentHandler->generateCCBillOneTimePaymentTransaction($transaction);
+                        } elseif($transaction['payment_provider'] == Transaction::PAYSTACK_PROVIDER) {
+                            $redirectLink = $this->paymentHandler->generatePaystackTransaction($transaction, Auth::user()->email);
+                        } elseif($transaction['payment_provider'] == Transaction::MERCADO_PROVIDER) {
+                            $redirectLink = $this->paymentHandler->generateMercadoTransaction($transaction);
+                        } elseif($transaction['payment_provider'] == Transaction::BTCPAY_PROVIDER) {
+                            $redirectLink = $this->PaymentHandler->generateBtcpayInvoice($transaction);
+                        }
+                    
+                        break;
+
                 case Transaction::ONE_MONTH_SUBSCRIPTION:
                 case Transaction::THREE_MONTHS_SUBSCRIPTION:
                 case Transaction::SIX_MONTHS_SUBSCRIPTION:
