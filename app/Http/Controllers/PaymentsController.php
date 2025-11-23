@@ -112,6 +112,7 @@ class PaymentsController extends Controller
 
             switch ($transactionType) {
                 case Transaction::TIP_TYPE:
+                case Transaction::DEPOSIT_TYPE:
                 case Transaction::CHAT_TIP_TYPE:
                 case Transaction::STREAM_ACCESS:
                 case Transaction::POST_UNLOCK:
@@ -126,7 +127,21 @@ class PaymentsController extends Controller
                             $errorMessage = __('Cannot pay to yourself.')
                         );
                     }
+                    // BTCPay integration
+                    if ($request->provider === 'btcpay') {
 
+                        $btcpay   = app(\App\Services\BtcpayService::class);
+
+                        $amount   = $request->amount;
+                        $currency = currency()->getUserCurrency();
+                        $orderId  = 'TX-' . $transaction->id;
+
+                        $redirectUrl = route('btcpay.thankyou');
+
+                        $invoice = $btcpay->createInvoice($amount, $currency, $orderId, $redirectUrl);
+
+                        return redirect()->away($invoice['checkoutLink']);
+                    }
                     if($transactionType === Transaction::POST_UNLOCK && PostsHelperServiceProvider::userPaidForPost($userId, $postId)){
                         return $this->paymentHandler->redirectByTransaction(
                             $transaction,
