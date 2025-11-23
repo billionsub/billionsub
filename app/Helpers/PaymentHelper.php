@@ -9,6 +9,7 @@
 namespace App\Helpers;
 
 use App\Model\Country;
+use App\Services\BTCpayService;
 use App\Model\Post;
 use App\Model\Stream;
 use App\Model\Subscription;
@@ -80,6 +81,7 @@ class PaymentHelper
             $this->experienceId = $this->generateWebProfile();
         }
     }
+    
 
     public function getPaypalApiContext()
     {
@@ -639,6 +641,30 @@ class PaymentHelper
             } elseif ($transaction['payment_provider'] === Transaction::CCBILL_PROVIDER) {
                 $transaction['ccbill_subscription_id'] = $paymentId;
             }
+            elseif ($transaction['payment_provider'] == Transaction::BTCPAY_PROVIDER) {
+                try {
+                    $btcpay = app(\App\Services\BtcpayService::class);
+            
+                    $amount   = $transaction['amount'];
+                    $currency = $transaction['currency'];
+                    $orderId  = 'TX-' . $transaction->id;
+            
+                    $redirectUrl = route('btcpay.thankyou');
+            
+                    $invoice = $btcpay->createInvoice($amount, $currency, $orderId, $redirectUrl);
+            
+                    if (!empty($invoice['checkoutLink'])) {
+                        $redirectLink = $invoice['checkoutLink'];
+                        $transaction['status'] = Transaction::PENDING_STATUS;
+                    } else {
+                        $transaction['status'] = Transaction::DECLINED_STATUS;
+                    }
+                } catch (\Exception $e) {
+                    \Log::channel('payments')->error('BTCPay createInvoice failed: ' . $e->getMessage());
+                    $transaction['status'] = Transaction::DECLINED_STATUS;
+                }
+            }
+
         }
 
         $transaction->save();
@@ -1223,6 +1249,47 @@ class PaymentHelper
      * @return |null
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
+     public function generateBtcpayInvoice(Transaction $transaction)
+{
+    $host    = rtrim(env('BTCPAY_HOST'), '/');
+    $storeId = env('BTCPAY_STORE_ID');
+    $apiKey  = env('BTCPAY_API_KEY');
+
+    if (!$host || !$storeId || !$apiKey) {
+        throw new \Exception('Missing BTCPay configuration');
+    }
+
+    $amount   = $transaction->amount;
+    $currency = $transaction->currency ?? config('app.site.currency_code', 'USD');
+
+    $payload = [
+        'amount'   => (string) $amount,
+        'currency' => $currency,
+        'metadata' => [
+            'orderId'       => 'TX-'.$transaction->id,
+            'transactionId' => $transaction->id,
+            'type'          => $transaction->type,
+        ],
+        'checkout' => [
+            'redirectURL' => route('btcpay.thankyou'),
+        ],
+    ];
+
+    $response = Http::withHeaders([
+            'Authorization' => 'token '.$apiKey,
+            'Accept'        => 'application/json',
+        ])
+        ->post("$host/api/v1/stores/$storeId/invoices", $payload)
+        ->throw()
+        ->json();
+
+    if (!empty($response['checkoutLink'])) {
+        return $response['checkoutLink'];
+    }
+
+    throw new \Exception('BTCPay: checkoutLink missing in invoice response');
+}
+
     public function generateNowPaymentsTransaction($transaction)
     {
         $redirectUrl = null;
@@ -1259,6 +1326,59 @@ class PaymentHelper
         }
 
         return $redirectUrl;
+    }
+        /**
+     * Generate BTCPay invoice and return checkout URL.
+     *
+     * @param \App\Model\Transaction $transaction
+     * @return string|null
+     */
+    public function generateBtcpayTransaction($transaction)
+    {
+        try {
+            /** @var BtcpayService $btcpay */
+            $btcpay = app(\App\Services\BtcpayService ::class);
+
+            // Make sure transaction has an ID so we can reference it in metadata
+            if (!$transaction->id) {
+                $transaction->save(); // will assign an ID if it doesn't have one yet
+            }
+
+            $metadata = [
+                'orderId'          => 'TX-' . $transaction->id,
+                'transactionType'  => $transaction->type,
+                'sender_user_id'   => $transaction->sender_user_id,
+                'recipient_user_id'=> $transaction->recipient_user_id,
+            ];
+
+            $invoice = $btcpay->createInvoice(
+                $transaction->amount,
+                $transaction->currency ?: config('app.site.currency_code', 'USD'),
+                $metadata
+            );
+
+            // BTCPay usually returns either 'checkoutLink' or 'url'
+            if (isset($invoice['checkoutLink'])) {
+                return $invoice['checkoutLink'];
+            }
+            if (isset($invoice['url'])) {
+                return $invoice['url'];
+            }
+
+            Log::channel('payments')->warning('BTCPay: invoice created but no checkout URL found', [
+                'invoice'     => $invoice,
+                'transaction' => $transaction->id,
+            ]);
+
+            return null;
+        } catch (\Throwable $e) {
+            Log::channel('payments')->error('BTCPay: failed to create invoice', [
+                'error'       => $e->getMessage(),
+                'transaction' => $transaction->id ?? null,
+            ]);
+
+            return null;
+        }
     }
 
     /**

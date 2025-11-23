@@ -77,6 +77,9 @@ var DepositSettings = {
             case 'payment-stripe':
                 DepositSettings.provider = 'stripe';
                 break;
+            case 'payment-btcpay':
+                DepositSettings.provider = 'btcpay';
+                break;
             case 'payment-paypal':
                 DepositSettings.provider = 'paypal';
                 break;
